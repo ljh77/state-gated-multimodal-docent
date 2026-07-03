@@ -6,7 +6,7 @@ State-gating mechanism for context-aware multimodal processing in digital human 
 
 - **State-Gating Mechanism**: Context-aware state management ensuring consistency in multimodal processing
 - **Multimodal Integration**: Unified processing of text, image, and audio streams
-- **Real-world Deployment**: Production deployment case study at King Sejong Museum
+- **Real-world Deployment**: Production deployment case study
 - **Performance Analysis**: Comprehensive evaluation of latency, resource utilization, and hallucination metrics
 
 ## Repository Structure
