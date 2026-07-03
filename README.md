@@ -34,11 +34,11 @@ state-gated-multimodal-docent/
 
 All experimental data for reproducing the paper's results is available in the `data/` folder:
 
-- **EXP1**: Gating Policy Ablation Study (Section VI.A)
+- **EXP1**: Gating Policy Ablation Study 
   - 97 voice-activity detection events with sensor states (P, F, V)
   - 4 gating policy definitions and ablation results
 
-- **EXP2**: Resource Profiling & Latency Analysis (Section VI.B, VI.D)
+- **EXP2**: Resource Profiling & Latency Analysis
   - 3 proposed state-gating session logs (full mode, P AND F AND V)
   - 4 always-on baseline session logs for comparison
 
