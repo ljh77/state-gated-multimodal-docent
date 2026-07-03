@@ -2,7 +2,7 @@
 
 **IEEE Access** #Access-2026-23083 (Resubmission)
 
-State-gating mechanism for context-aware multimodal processing in digital human docent systems, deployed at King Sejong Museum.
+State-gating mechanism for context-aware multimodal processing in digital human docent systems.
 
 ## Core Contributions
 
