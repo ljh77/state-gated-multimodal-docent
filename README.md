@@ -48,14 +48,6 @@ All experimental data for reproducing the paper's results is available in the `d
 
 See `data/README.md` for detailed file descriptions and field schemas.
 
-## Paper Details
-
-- **Journal**: IEEE Access
-- **Paper ID**: Access-2026-23083
-- **Status**: Resubmission with expanded evaluation
-- **Deployment Site**: King Sejong Museum (Gwangju, Korea)
-- **Deployment Period**: 2024-2026
-
 ## Data Availability
 
 All experimental data required to reproduce the results in Section VI of the paper are provided in the `data/` folder:
@@ -67,5 +59,5 @@ All experimental data required to reproduce the results in Section VI of the pap
 
 ## Author
 
-Jun Lee (이준형 / Junhyeong Lee)
-Culture Technology Research Institute, GIST
+(이준형 / Junhyeong Lee)
+
