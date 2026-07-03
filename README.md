@@ -49,7 +49,7 @@ See `data/README.md` for detailed file descriptions and field schemas.
 
 ## Data Availability
 
-All experimental data required to reproduce the results in Section VI of the paper are provided in the `data/` folder:
+All experimental data required to reproduce the results in Section VI of the paper are provided in the `/log` folder:
 
 - Gating policy evaluation on 97 logged voice-activity events
 - Pipeline latency measurement on live full-mode sessions (proposed + baseline)
