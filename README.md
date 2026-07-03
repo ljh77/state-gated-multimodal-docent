@@ -35,7 +35,7 @@ state-gated-multimodal-docent/
 
 ## Experimental Data
 
-All experimental data for reproducing the paper's results is available in the `data/` folder:
+All experimental data for reproducing the paper's results is available in the `/log` folder:
 
 - **EXP1**: Gating Policy Ablation Study 
   - 97 voice-activity detection events with sensor states (P, F, V)
