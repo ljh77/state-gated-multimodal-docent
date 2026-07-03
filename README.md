@@ -18,8 +18,8 @@ state-gated-multimodal-docent/
 ├── README.md                 This file
 ├── data/
 │   ├── README.md            Detailed data documentation
-│   ├── EXP1_total_gating_dataset.json               (Section VI.A)
-│   ├── EXP3_vlmm_batch_log_260702.txt              (Section VI.C, VI.E)
+│   ├── EXP1_total_gating_dataset.json         
+│   ├── EXP3_vlmm_batch_log_260702.txt
 │   ├── EXP2_proposed_full_001_20260701_182400.jsonl
 │   ├── EXP2_proposed_full_002_20260701_183957.jsonl
 │   ├── EXP2_proposed_full_003_20260701_184725.jsonl
