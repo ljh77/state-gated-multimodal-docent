@@ -2,6 +2,9 @@
 
 State-gating mechanism for context-aware multimodal processing in digital human docent systems.
 
+Please note: This repository provides experimental data and reproducibility materials. 
+**The system source code is not included.
+
 ![Digital Human Docent System](State-Gated-MDS.png)
 
 ## Core Contributions
