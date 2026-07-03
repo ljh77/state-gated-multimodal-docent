@@ -20,14 +20,13 @@ state-gated-multimodal-docent/
 │   ├── README.md            Detailed data documentation
 │   ├── EXP1_total_gating_dataset.json               (Section VI.A)
 │   ├── EXP3_vlmm_batch_log_260702.txt              (Section VI.C, VI.E)
-│   └── deployment_logs/
-│       ├── EXP2_proposed_full_001_20260701_182400.jsonl
-│       ├── EXP2_proposed_full_002_20260701_183957.jsonl
-│       ├── EXP2_proposed_full_003_20260701_184725.jsonl
-│       ├── EXP2_baseline_alwayson_001_backradio_user_20260701_190728.jsonl
-│       ├── EXP2_baseline_alwayson_002_backmusic_user_20260701_185942.jsonl
-│       ├── EXP2_baseline_alwayson_003_radionly_nonuser_20260701_192534.jsonl
-│       └── EXP2_baseline_alwayson_004_radiosideface_nonuser_20260702_134838.jsonl
+│   ├── EXP2_proposed_full_001_20260701_182400.jsonl
+│   ├── EXP2_proposed_full_002_20260701_183957.jsonl
+│   ├── EXP2_proposed_full_003_20260701_184725.jsonl
+│   ├── EXP2_baseline_alwayson_001_backradio_user_20260701_190728.jsonl
+│   ├── EXP2_baseline_alwayson_002_backmusic_user_20260701_185942.jsonl
+│   ├── EXP2_baseline_alwayson_003_radionly_nonuser_20260701_192534.jsonl
+│   └── EXP2_baseline_alwayson_004_radiosideface_nonuser_20260702_134838.jsonl
 └── log/
 ```
 
