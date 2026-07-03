@@ -2,6 +2,8 @@
 
 State-gating mechanism for context-aware multimodal processing in digital human docent systems.
 
+![Digital Human Docent System](assets/digital-human-interaction.png)
+
 ## Core Contributions
 
 - **State-Gating Mechanism**: Context-aware state management ensuring consistency in multimodal processing
