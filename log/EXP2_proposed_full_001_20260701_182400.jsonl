@@ -1,0 +1,171 @@
+{"ev": "meta", "mode": "full", "selfloop_baseline": 0, "label": "", "sr": 16000, "buffer_sec": 1.0, "close_enter": 0.18, "face_sym_on": 0.65, "face_sym_off": 0.5, "face_smooth": 5, "hold": 1.5, "yolo_fps": 5, "yolo": "yolov8n conf0.4 imgsz320", "whisper": "small int8 ko beam1", "vad": "silero default0.5", "face": "mediapipe ms0 keypoint-sym yaw", "t": 1782897840.9060552}
+{"ev": "res", "mode": "full", "cpu": 0.0, "ram": 46.0, "t": 1782897840.931107}
+{"ev": "res", "mode": "full", "cpu": 4.6, "ram": 46.2, "t": 1782897842.9414556}
+{"ev": "res", "mode": "full", "cpu": 3.2, "ram": 46.3, "t": 1782897844.9427617}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782897846.5978558}
+{"ev": "res", "mode": "full", "cpu": 3.0, "ram": 46.2, "t": 1782897846.9438946}
+{"ev": "vad", "id": 1, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 83.5, "stt_ms": 19.1, "text_len": 2, "t": 1782897848.1610043}
+{"ev": "vad", "id": 2, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 24.4, "stt_ms": 19.7, "text_len": 6, "t": 1782897848.7189996}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782897848.8187213}
+{"ev": "res", "mode": "full", "cpu": 4.6, "ram": 47.1, "t": 1782897848.9449143}
+{"ev": "res", "mode": "full", "cpu": 3.0, "ram": 47.0, "t": 1782897850.94551}
+{"ev": "res", "mode": "full", "cpu": 3.3, "ram": 47.0, "t": 1782897852.9469893}
+{"ev": "res", "mode": "full", "cpu": 3.2, "ram": 47.0, "t": 1782897854.9479606}
+{"ev": "resp", "id": 2, "server_ms": 4814.6, "tts_ms": 1728.5, "osc_ms": 0.2, "total_s": 6.622, "play_len": 21.02, "chars": 256, "words": 45, "block": 1, "selfloop": 0, "ans": "I am humbled by your respects. May the blessings of heaven be upon our great Joseon Dynasty, and may our people continue to prosper under my wise leadership. May our endeavors in the arts, sciences, and governance bring honor to our kingdom and its people.", "t": 1782897855.2746005}
+{"ev": "res", "mode": "full", "cpu": 14.9, "ram": 47.2, "t": 1782897856.949772}
+{"ev": "res", "mode": "full", "cpu": 23.4, "ram": 47.2, "t": 1782897858.9502835}
+{"ev": "res", "mode": "full", "cpu": 23.4, "ram": 47.2, "t": 1782897860.9507022}
+{"ev": "res", "mode": "full", "cpu": 24.6, "ram": 47.2, "t": 1782897862.9511902}
+{"ev": "res", "mode": "full", "cpu": 24.5, "ram": 47.2, "t": 1782897864.9516666}
+{"ev": "res", "mode": "full", "cpu": 23.8, "ram": 47.2, "t": 1782897866.9528866}
+{"ev": "res", "mode": "full", "cpu": 24.4, "ram": 47.2, "t": 1782897868.9538467}
+{"ev": "res", "mode": "full", "cpu": 24.5, "ram": 47.2, "t": 1782897870.9546373}
+{"ev": "res", "mode": "full", "cpu": 23.6, "ram": 47.2, "t": 1782897872.9551184}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.2, "t": 1782897874.9560666}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782897876.4072523}
+{"ev": "res", "mode": "full", "cpu": 21.5, "ram": 47.2, "t": 1782897876.9576178}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.2, "t": 1782897878.9590533}
+{"ev": "res", "mode": "full", "cpu": 15.3, "ram": 47.2, "t": 1782897880.959818}
+{"ev": "vad", "id": 3, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 20.6, "stt_ms": 20.7, "text_len": 7, "t": 1782897882.3452535}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782897882.3939025}
+{"ev": "res", "mode": "full", "cpu": 14.6, "ram": 47.2, "t": 1782897882.9606845}
+{"ev": "res", "mode": "full", "cpu": 10.7, "ram": 47.2, "t": 1782897884.9609933}
+{"ev": "res", "mode": "full", "cpu": 13.6, "ram": 47.2, "t": 1782897886.9617898}
+{"ev": "res", "mode": "full", "cpu": 10.1, "ram": 47.3, "t": 1782897888.9627485}
+{"ev": "res", "mode": "full", "cpu": 7.3, "ram": 47.3, "t": 1782897890.9632385}
+{"ev": "resp", "id": 3, "server_ms": 6827.7, "tts_ms": 3188.5, "osc_ms": 0.1, "total_s": 12.911, "play_len": 27.98, "chars": 332, "words": 56, "block": 1, "selfloop": 0, "ans": "I am King Sejong, the 5th king of the Joseon Dynasty, and the creator of the Hunminjeongeum, the Korean alphabet. I reigned from 1418 to 1450 and implemented various reforms, including the development of the Korean alphabet and the creation of the Sejong Institute. My legacy has had a profound impact on Korean culture and society.", "t": 1782897892.3630025}
+{"ev": "res", "mode": "full", "cpu": 5.8, "ram": 47.3, "t": 1782897892.9640834}
+{"ev": "res", "mode": "full", "cpu": 8.5, "ram": 47.4, "t": 1782897894.964661}
+{"ev": "res", "mode": "full", "cpu": 10.1, "ram": 47.4, "t": 1782897896.965226}
+{"ev": "res", "mode": "full", "cpu": 10.3, "ram": 47.4, "t": 1782897898.9658198}
+{"ev": "res", "mode": "full", "cpu": 11.1, "ram": 47.5, "t": 1782897900.9662902}
+{"ev": "res", "mode": "full", "cpu": 10.9, "ram": 47.5, "t": 1782897902.966672}
+{"ev": "res", "mode": "full", "cpu": 8.9, "ram": 47.5, "t": 1782897904.967024}
+{"ev": "res", "mode": "full", "cpu": 8.4, "ram": 47.5, "t": 1782897906.968808}
+{"ev": "res", "mode": "full", "cpu": 10.8, "ram": 47.6, "t": 1782897908.9697955}
+{"ev": "res", "mode": "full", "cpu": 27.8, "ram": 47.6, "t": 1782897910.970492}
+{"ev": "res", "mode": "full", "cpu": 32.4, "ram": 47.7, "t": 1782897912.971225}
+{"ev": "res", "mode": "full", "cpu": 30.5, "ram": 47.7, "t": 1782897914.9730122}
+{"ev": "res", "mode": "full", "cpu": 28.7, "ram": 47.7, "t": 1782897916.9743187}
+{"ev": "res", "mode": "full", "cpu": 28.4, "ram": 47.7, "t": 1782897918.9752846}
+{"ev": "res", "mode": "full", "cpu": 29.5, "ram": 47.7, "t": 1782897920.9768193}
+{"ev": "res", "mode": "full", "cpu": 16.3, "ram": 47.7, "t": 1782897922.9777334}
+{"ev": "res", "mode": "full", "cpu": 14.4, "ram": 47.7, "t": 1782897924.9787276}
+{"ev": "res", "mode": "full", "cpu": 14.1, "ram": 47.7, "t": 1782897926.9799764}
+{"ev": "res", "mode": "full", "cpu": 9.5, "ram": 47.7, "t": 1782897928.9809525}
+{"ev": "res", "mode": "full", "cpu": 5.0, "ram": 47.7, "t": 1782897930.9821146}
+{"ev": "res", "mode": "full", "cpu": 5.1, "ram": 47.7, "t": 1782897932.9825315}
+{"ev": "res", "mode": "full", "cpu": 5.9, "ram": 47.8, "t": 1782897934.9831533}
+{"ev": "res", "mode": "full", "cpu": 10.0, "ram": 47.8, "t": 1782897936.9843433}
+{"ev": "res", "mode": "full", "cpu": 12.4, "ram": 47.8, "t": 1782897938.9852757}
+{"ev": "res", "mode": "full", "cpu": 11.3, "ram": 47.8, "t": 1782897940.9859207}
+{"ev": "res", "mode": "full", "cpu": 13.4, "ram": 47.4, "t": 1782897942.9861772}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.2, "t": 1782897944.9874542}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782897945.4911134}
+{"ev": "res", "mode": "full", "cpu": 17.4, "ram": 47.2, "t": 1782897946.9891853}
+{"ev": "res", "mode": "full", "cpu": 12.9, "ram": 47.1, "t": 1782897948.9900029}
+{"ev": "res", "mode": "full", "cpu": 12.8, "ram": 47.1, "t": 1782897950.9912732}
+{"ev": "res", "mode": "full", "cpu": 11.8, "ram": 47.1, "t": 1782897952.9920125}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782897953.5881448}
+{"ev": "res", "mode": "full", "cpu": 13.0, "ram": 47.1, "t": 1782897954.9928946}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.1, "t": 1782897956.9938495}
+{"ev": "res", "mode": "full", "cpu": 11.9, "ram": 47.1, "t": 1782897958.9941573}
+{"ev": "res", "mode": "full", "cpu": 13.6, "ram": 47.1, "t": 1782897960.9950776}
+{"ev": "res", "mode": "full", "cpu": 12.2, "ram": 47.1, "t": 1782897962.9962747}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 47.1, "t": 1782897964.9973524}
+{"ev": "res", "mode": "full", "cpu": 13.8, "ram": 47.1, "t": 1782897966.9991174}
+{"ev": "res", "mode": "full", "cpu": 11.4, "ram": 47.1, "t": 1782897969.0003335}
+{"ev": "res", "mode": "full", "cpu": 12.4, "ram": 47.1, "t": 1782897971.001219}
+{"ev": "res", "mode": "full", "cpu": 13.2, "ram": 47.1, "t": 1782897973.0020552}
+{"ev": "res", "mode": "full", "cpu": 11.9, "ram": 47.1, "t": 1782897975.0031145}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782897975.600222}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782897976.5059884}
+{"ev": "res", "mode": "full", "cpu": 11.0, "ram": 47.1, "t": 1782897977.0040717}
+{"ev": "res", "mode": "full", "cpu": 11.9, "ram": 47.1, "t": 1782897979.0049138}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 47.1, "t": 1782897981.005744}
+{"ev": "res", "mode": "full", "cpu": 11.7, "ram": 47.1, "t": 1782897983.0066035}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782897984.168207}
+{"ev": "res", "mode": "full", "cpu": 13.5, "ram": 47.1, "t": 1782897985.0074706}
+{"ev": "res", "mode": "full", "cpu": 16.2, "ram": 47.1, "t": 1782897987.0089357}
+{"ev": "vad", "id": 4, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 23.7, "stt_ms": 19.8, "text_len": 8, "t": 1782897988.8820083}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782897988.9130814}
+{"ev": "res", "mode": "full", "cpu": 15.9, "ram": 47.0, "t": 1782897989.0101752}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 47.0, "t": 1782897991.0109923}
+{"ev": "res", "mode": "full", "cpu": 13.3, "ram": 47.0, "t": 1782897993.0121465}
+{"ev": "res", "mode": "full", "cpu": 7.5, "ram": 47.0, "t": 1782897995.013255}
+{"ev": "res", "mode": "full", "cpu": 14.0, "ram": 47.0, "t": 1782897997.0143888}
+{"ev": "resp", "id": 4, "server_ms": 7179.7, "tts_ms": 2399.1, "osc_ms": 0.2, "total_s": 13.251, "play_len": 32.26, "chars": 416, "words": 68, "block": 1, "selfloop": 0, "ans": "As King Sejong, I am proud to have fostered a culture of innovation and discovery, promoting the development of various technologies and arts. Through my efforts, Korea has seen significant advancements in fields such as printing, gunpowder, and music, leaving a lasting legacy for generations to come. My passion for technology and the arts has enabled me to bring about a golden age of Korean culture and progress.", "t": 1782897998.4617448}
+{"ev": "res", "mode": "full", "cpu": 13.0, "ram": 47.1, "t": 1782897999.0151868}
+{"ev": "res", "mode": "full", "cpu": 23.6, "ram": 47.1, "t": 1782898001.015691}
+{"ev": "res", "mode": "full", "cpu": 23.9, "ram": 47.0, "t": 1782898003.016365}
+{"ev": "res", "mode": "full", "cpu": 28.9, "ram": 47.0, "t": 1782898005.0170517}
+{"ev": "res", "mode": "full", "cpu": 23.8, "ram": 47.0, "t": 1782898007.0174425}
+{"ev": "res", "mode": "full", "cpu": 23.7, "ram": 47.1, "t": 1782898009.0189323}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.1, "t": 1782898011.020082}
+{"ev": "res", "mode": "full", "cpu": 24.1, "ram": 47.1, "t": 1782898013.0210674}
+{"ev": "res", "mode": "full", "cpu": 24.6, "ram": 47.1, "t": 1782898015.0216339}
+{"ev": "res", "mode": "full", "cpu": 24.9, "ram": 47.1, "t": 1782898017.0230284}
+{"ev": "res", "mode": "full", "cpu": 23.3, "ram": 47.1, "t": 1782898019.0239785}
+{"ev": "res", "mode": "full", "cpu": 24.3, "ram": 47.1, "t": 1782898021.0245366}
+{"ev": "res", "mode": "full", "cpu": 24.5, "ram": 47.1, "t": 1782898023.024859}
+{"ev": "res", "mode": "full", "cpu": 24.9, "ram": 47.1, "t": 1782898025.0252905}
+{"ev": "res", "mode": "full", "cpu": 23.7, "ram": 47.1, "t": 1782898027.0263565}
+{"ev": "res", "mode": "full", "cpu": 24.4, "ram": 47.1, "t": 1782898029.0270271}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898030.9669285}
+{"ev": "res", "mode": "full", "cpu": 23.0, "ram": 47.0, "t": 1782898031.0283415}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898031.993263}
+{"ev": "res", "mode": "full", "cpu": 13.2, "ram": 47.0, "t": 1782898033.0289595}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898034.2900045}
+{"ev": "res", "mode": "full", "cpu": 11.7, "ram": 47.0, "t": 1782898035.0293603}
+{"ev": "res", "mode": "full", "cpu": 11.9, "ram": 47.0, "t": 1782898037.0301702}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898037.296432}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 47.0, "t": 1782898039.0311582}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898039.2963984}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898040.582007}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 47.0, "t": 1782898041.0323799}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898042.800302}
+{"ev": "res", "mode": "full", "cpu": 10.7, "ram": 47.0, "t": 1782898043.032839}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898044.4961784}
+{"ev": "res", "mode": "full", "cpu": 11.4, "ram": 47.0, "t": 1782898045.0336947}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898045.696658}
+{"ev": "res", "mode": "full", "cpu": 12.5, "ram": 47.0, "t": 1782898047.034672}
+{"ev": "res", "mode": "full", "cpu": 16.3, "ram": 47.0, "t": 1782898049.035801}
+{"ev": "res", "mode": "full", "cpu": 16.5, "ram": 47.0, "t": 1782898051.0366967}
+{"ev": "res", "mode": "full", "cpu": 16.0, "ram": 47.0, "t": 1782898053.0374284}
+{"ev": "res", "mode": "full", "cpu": 16.2, "ram": 47.0, "t": 1782898055.038652}
+{"ev": "res", "mode": "full", "cpu": 16.4, "ram": 47.0, "t": 1782898057.0392876}
+{"ev": "res", "mode": "full", "cpu": 14.9, "ram": 47.0, "t": 1782898059.0397031}
+{"ev": "res", "mode": "full", "cpu": 14.9, "ram": 47.0, "t": 1782898061.0406048}
+{"ev": "res", "mode": "full", "cpu": 15.8, "ram": 47.0, "t": 1782898063.0411797}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898064.5846128}
+{"ev": "res", "mode": "full", "cpu": 15.9, "ram": 47.0, "t": 1782898065.0421534}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898066.0713272}
+{"ev": "res", "mode": "full", "cpu": 15.5, "ram": 47.0, "t": 1782898067.0430954}
+{"ev": "res", "mode": "full", "cpu": 16.4, "ram": 46.9, "t": 1782898069.0439394}
+{"ev": "vad", "id": 5, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 21.4, "stt_ms": 20.4, "text_len": 10, "t": 1782898070.6501925}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898070.6969304}
+{"ev": "res", "mode": "full", "cpu": 19.8, "ram": 46.9, "t": 1782898071.0453603}
+{"ev": "res", "mode": "full", "cpu": 11.6, "ram": 47.0, "t": 1782898073.0464246}
+{"ev": "res", "mode": "full", "cpu": 10.7, "ram": 47.0, "t": 1782898075.0466661}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "t": 1782898077.0471401}
+{"ev": "res", "mode": "full", "cpu": 11.3, "ram": 47.0, "t": 1782898079.0474203}
+{"ev": "resp", "id": 5, "server_ms": 6937.4, "tts_ms": 3135.2, "osc_ms": 0.1, "total_s": 33.987, "play_len": 27.89, "chars": 347, "words": 57, "block": 1, "selfloop": 0, "ans": "The pleasures of the palate! As King Sejong, I delight in the refined flavors and aromas of Korean cuisine, particularly the delicate nuances of traditional dishes such as jeyuk bokkeum, a stir-fry of pork and vegetables, and doenjang jjigae, a savory fermented soybean paste stew. May the culinary arts bring forth joy and harmony to our kingdom.", "t": 1782898080.7242312}
+{"ev": "res", "mode": "full", "cpu": 12.4, "ram": 47.1, "t": 1782898081.0491288}
+{"ev": "res", "mode": "full", "cpu": 22.5, "ram": 47.1, "t": 1782898083.0503561}
+{"ev": "res", "mode": "full", "cpu": 25.1, "ram": 47.1, "t": 1782898085.0507755}
+{"ev": "res", "mode": "full", "cpu": 23.5, "ram": 47.1, "t": 1782898087.052061}
+{"ev": "res", "mode": "full", "cpu": 23.5, "ram": 47.1, "t": 1782898089.0526881}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.1, "t": 1782898091.053355}
+{"ev": "res", "mode": "full", "cpu": 25.2, "ram": 47.1, "t": 1782898093.0541272}
+{"ev": "res", "mode": "full", "cpu": 24.4, "ram": 47.1, "t": 1782898095.0550938}
+{"ev": "res", "mode": "full", "cpu": 24.3, "ram": 47.1, "t": 1782898097.0557826}
+{"ev": "res", "mode": "full", "cpu": 22.8, "ram": 47.1, "t": 1782898099.0575185}
+{"ev": "res", "mode": "full", "cpu": 23.3, "ram": 47.1, "t": 1782898101.0592663}
+{"ev": "res", "mode": "full", "cpu": 22.7, "ram": 47.0, "t": 1782898103.0602934}
+{"ev": "res", "mode": "full", "cpu": 28.5, "ram": 47.0, "t": 1782898105.0617023}
+{"ev": "res", "mode": "full", "cpu": 24.1, "ram": 47.0, "t": 1782898107.0626287}
+{"ev": "res", "mode": "full", "cpu": 24.5, "ram": 47.0, "t": 1782898109.0631104}
+{"ev": "res", "mode": "full", "cpu": 12.9, "ram": 47.0, "t": 1782898111.0641327}
+{"ev": "res", "mode": "full", "cpu": 10.9, "ram": 47.0, "t": 1782898113.0649538}
+{"ev": "res", "mode": "full", "cpu": 9.0, "ram": 47.1, "t": 1782898115.0655677}
+{"ev": "summary", "n_vad": 5, "n_stt": 5, "n_llm": 4, "t": 1782898116.245396}

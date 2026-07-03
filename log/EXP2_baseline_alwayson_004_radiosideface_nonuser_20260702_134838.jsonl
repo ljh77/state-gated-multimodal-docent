@@ -1,0 +1,487 @@
+{"ev": "meta", "mode": "always_on", "selfloop_baseline": 0, "label": "nonuser", "sr": 16000, "buffer_sec": 1.0, "close_enter": 0.18, "face_sym_on": 0.65, "face_sym_off": 0.5, "face_smooth": 5, "hold": 1.5, "yolo_fps": 5, "yolo": "yolov8n conf0.4 imgsz320", "whisper": "small int8 ko beam1", "vad": "silero default0.5", "face": "mediapipe ms0 keypoint-sym yaw", "t": 1782967718.379002}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 41.2, "gpu": 0, "gpu_mem_mb": 10676, "t": 1782967718.4242945}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 41.4, "gpu": 4, "gpu_mem_mb": 10672, "t": 1782967720.425436}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967720.6567013}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 41.6, "gpu": 6, "gpu_mem_mb": 10682, "t": 1782967722.427285}
+{"ev": "vad", "id": 1, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 25.3, "stt_ms": 22.3, "text_len": 0, "t": 1782967722.9481611}
+{"ev": "vad", "id": 2, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 19.0, "stt_ms": 18.8, "text_len": 8, "t": 1782967723.821805}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967723.8670595}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 42.4, "gpu": 1, "gpu_mem_mb": 10709, "t": 1782967724.428223}
+{"ev": "res", "mode": "always_on", "cpu": 3.1, "ram": 42.4, "gpu": 0, "gpu_mem_mb": 10716, "t": 1782967726.4288793}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10714, "t": 1782967728.429708}
+{"ev": "res", "mode": "always_on", "cpu": 3.6, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10723, "t": 1782967730.430942}
+{"ev": "res", "mode": "always_on", "cpu": 2.4, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10707, "t": 1782967732.431337}
+{"ev": "resp", "id": 2, "server_ms": 7005.0, "tts_ms": 2270.2, "osc_ms": 0.2, "total_s": 9.392, "play_len": 25.9, "chars": 325, "words": 61, "block": 1, "selfloop": 0, "ans": "My loyal subject, I am King Sejong, the fourth king of the Joseon Dynasty, and I shall not be swayed by petty criticisms. As a just and fair ruler, I have dedicated my life to the betterment of our people and the enrichment of our culture. I shall continue to reign with wisdom and integrity, undeterred by the whims of fate.", "t": 1782967733.109133}
+{"ev": "res", "mode": "always_on", "cpu": 3.1, "ram": 42.5, "gpu": 11, "gpu_mem_mb": 10710, "t": 1782967734.4335191}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10708, "t": 1782967736.4344692}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10700, "t": 1782967738.4353971}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10708, "t": 1782967740.4362035}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10708, "t": 1782967742.4373634}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10700, "t": 1782967744.4386141}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10716, "t": 1782967746.4393392}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10716, "t": 1782967748.439703}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10705, "t": 1782967750.4413726}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 42.5, "gpu": 3, "gpu_mem_mb": 10709, "t": 1782967752.4422674}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10718, "t": 1782967754.4433024}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.5, "gpu": 3, "gpu_mem_mb": 10707, "t": 1782967756.4445958}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.5, "gpu": 3, "gpu_mem_mb": 10719, "t": 1782967758.4452248}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967759.2910936}
+{"ev": "res", "mode": "always_on", "cpu": 8.0, "ram": 42.6, "gpu": 6, "gpu_mem_mb": 10820, "t": 1782967760.4463365}
+{"ev": "vad", "id": 3, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 16.8, "stt_ms": 18.8, "text_len": 0, "t": 1782967761.5800374}
+{"ev": "vad", "id": 4, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.0, "stt_ms": 18.5, "text_len": 9, "t": 1782967762.407727}
+{"ev": "res", "mode": "always_on", "cpu": 4.0, "ram": 42.5, "gpu": 1, "gpu_mem_mb": 10792, "t": 1782967762.447919}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967762.530911}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 42.5, "gpu": 1, "gpu_mem_mb": 10772, "t": 1782967764.4492352}
+{"ev": "res", "mode": "always_on", "cpu": 3.5, "ram": 42.5, "gpu": 1, "gpu_mem_mb": 10729, "t": 1782967766.44961}
+{"ev": "res", "mode": "always_on", "cpu": 4.0, "ram": 42.5, "gpu": 1, "gpu_mem_mb": 10715, "t": 1782967768.4505417}
+{"ev": "resp", "id": 4, "server_ms": 4932.2, "tts_ms": 3055.8, "osc_ms": 0.1, "total_s": 8.066, "play_len": 21.12, "chars": 258, "words": 45, "block": 1, "selfloop": 0, "ans": "As King Sejong, I shall not indulge in petty desires or fleeting whims. My focus is on the well-being of my people and the advancement of our great nation. I shall continue to prioritize wisdom and discipline, unwavering in my commitment to the greater good.", "t": 1782967770.396952}
+{"ev": "res", "mode": "always_on", "cpu": 3.1, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10731, "t": 1782967770.4512844}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10728, "t": 1782967772.452004}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10723, "t": 1782967774.452308}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10718, "t": 1782967776.4534261}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10718, "t": 1782967778.4543662}
+{"ev": "res", "mode": "always_on", "cpu": 8.3, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10710, "t": 1782967780.4553902}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.7, "gpu": 13, "gpu_mem_mb": 10753, "t": 1782967782.456366}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10755, "t": 1782967784.4575624}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.8, "gpu": 3, "gpu_mem_mb": 10748, "t": 1782967786.4584327}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 42.9, "gpu": 2, "gpu_mem_mb": 10743, "t": 1782967788.4595985}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.9, "gpu": 3, "gpu_mem_mb": 10744, "t": 1782967790.4605737}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967791.9236023}
+{"ev": "res", "mode": "always_on", "cpu": 8.1, "ram": 42.9, "gpu": 5, "gpu_mem_mb": 10740, "t": 1782967792.4610865}
+{"ev": "vad", "id": 5, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 21.1, "stt_ms": 19.1, "text_len": 7, "t": 1782967794.3508654}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967794.4284825}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 42.9, "gpu": 100, "gpu_mem_mb": 10740, "t": 1782967794.4621913}
+{"ev": "res", "mode": "always_on", "cpu": 4.4, "ram": 42.9, "gpu": 1, "gpu_mem_mb": 10739, "t": 1782967796.4632}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.9, "gpu": 1, "gpu_mem_mb": 10738, "t": 1782967798.4647534}
+{"ev": "res", "mode": "always_on", "cpu": 5.0, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10745, "t": 1782967800.4664958}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10741, "t": 1782967802.467475}
+{"ev": "resp", "id": 5, "server_ms": 6521.6, "tts_ms": 2863.1, "osc_ms": 0.1, "total_s": 9.779, "play_len": 31.22, "chars": 400, "words": 60, "block": 1, "selfloop": 0, "ans": "During my reign, I have striven to promote the welfare of our people by introducing innovative reforms and developing our nation's infrastructure. The creation of the Korean alphabet, Hangul, is a monumental achievement of my administration, ensuring that our language is preserved for future generations. Through these efforts, I have sought to strengthen the foundation of our great Joseon Dynasty.", "t": 1782967803.7367704}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10737, "t": 1782967804.4682693}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10734, "t": 1782967806.4695117}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 42.3, "gpu": 3, "gpu_mem_mb": 10734, "t": 1782967808.4706545}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10732, "t": 1782967810.4716196}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10728, "t": 1782967812.4732473}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 42.1, "gpu": 3, "gpu_mem_mb": 10728, "t": 1782967814.4736576}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 42.0, "gpu": 2, "gpu_mem_mb": 10728, "t": 1782967816.4744308}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 42.0, "gpu": 2, "gpu_mem_mb": 10728, "t": 1782967818.4756255}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 42.0, "gpu": 3, "gpu_mem_mb": 10730, "t": 1782967820.4774015}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 42.0, "gpu": 2, "gpu_mem_mb": 10730, "t": 1782967822.478318}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.1, "gpu": 3, "gpu_mem_mb": 10740, "t": 1782967824.4792573}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 42.1, "gpu": 3, "gpu_mem_mb": 10748, "t": 1782967826.480751}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10749, "t": 1782967828.481927}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10732, "t": 1782967830.4823573}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 42.2, "gpu": 4, "gpu_mem_mb": 10719, "t": 1782967832.4836206}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10720, "t": 1782967834.4843626}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967835.1239173}
+{"ev": "res", "mode": "always_on", "cpu": 7.9, "ram": 42.3, "gpu": 2, "gpu_mem_mb": 10785, "t": 1782967836.4858532}
+{"ev": "vad", "id": 6, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 20.5, "stt_ms": 20.5, "text_len": 6, "t": 1782967836.8568761}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967836.9119704}
+{"ev": "res", "mode": "always_on", "cpu": 4.8, "ram": 42.3, "gpu": 1, "gpu_mem_mb": 10722, "t": 1782967838.486346}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 42.3, "gpu": 3, "gpu_mem_mb": 10724, "t": 1782967840.4873102}
+{"ev": "resp", "id": 6, "server_ms": 3190.3, "tts_ms": 2038.1, "osc_ms": 0.1, "total_s": 5.915, "play_len": 12.0, "chars": 155, "words": 28, "block": 1, "selfloop": 0, "ans": "\"A noble subject, I shall attend to your request with utmost diligence and wisdom, as befits a king who seeks to bring prosperity and peace to his people.\"", "t": 1782967842.0870242}
+{"ev": "res", "mode": "always_on", "cpu": 4.5, "ram": 42.3, "gpu": 3, "gpu_mem_mb": 10725, "t": 1782967842.4885197}
+{"ev": "res", "mode": "always_on", "cpu": 5.4, "ram": 42.4, "gpu": 4, "gpu_mem_mb": 10744, "t": 1782967844.4893064}
+{"ev": "res", "mode": "always_on", "cpu": 8.0, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10752, "t": 1782967846.4917343}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.4, "gpu": 0, "gpu_mem_mb": 10754, "t": 1782967848.492614}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.4, "gpu": 1, "gpu_mem_mb": 10746, "t": 1782967850.4947517}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10743, "t": 1782967852.4957917}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967854.1891181}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10739, "t": 1782967854.496751}
+{"ev": "vad", "id": 7, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 22.4, "stt_ms": 19.0, "text_len": 7, "t": 1782967855.537984}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967855.6568866}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 42.4, "gpu": 1, "gpu_mem_mb": 10726, "t": 1782967856.4983337}
+{"ev": "res", "mode": "always_on", "cpu": 4.3, "ram": 42.1, "gpu": 1, "gpu_mem_mb": 10720, "t": 1782967858.5002804}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10718, "t": 1782967860.5015128}
+{"ev": "res", "mode": "always_on", "cpu": 2.8, "ram": 42.1, "gpu": 3, "gpu_mem_mb": 10719, "t": 1782967862.502634}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10719, "t": 1782967864.5035036}
+{"ev": "resp", "id": 7, "server_ms": 6241.1, "tts_ms": 3090.7, "osc_ms": 0.1, "total_s": 9.634, "play_len": 28.37, "chars": 360, "words": 58, "block": 1, "selfloop": 0, "ans": "The province of Gyeongsang has been of great importance to our kingdom, and I have taken great care to maintain its prosperity and stability. Its people have been loyal and hardworking, and I have rewarded them with our benevolent rule. I have also invested in the development of its industries and infrastructure, ensuring its continued growth and prosperity.", "t": 1782967864.8708491}
+{"ev": "res", "mode": "always_on", "cpu": 4.8, "ram": 42.3, "gpu": 2, "gpu_mem_mb": 10744, "t": 1782967866.5045261}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.3, "gpu": 3, "gpu_mem_mb": 10743, "t": 1782967868.5056853}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10733, "t": 1782967870.5065885}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10726, "t": 1782967872.5078597}
+{"ev": "res", "mode": "always_on", "cpu": 7.1, "ram": 42.3, "gpu": 3, "gpu_mem_mb": 10721, "t": 1782967874.5084846}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 42.4, "gpu": 2, "gpu_mem_mb": 10722, "t": 1782967876.5096753}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10724, "t": 1782967878.510497}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 42.5, "gpu": 3, "gpu_mem_mb": 10726, "t": 1782967880.511763}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.3, "gpu": 2, "gpu_mem_mb": 10727, "t": 1782967882.5125818}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10729, "t": 1782967884.5142474}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.2, "gpu": 3, "gpu_mem_mb": 10737, "t": 1782967886.5148098}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10723, "t": 1782967888.516288}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10728, "t": 1782967890.5177093}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.2, "gpu": 3, "gpu_mem_mb": 10717, "t": 1782967892.5187356}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967893.5298147}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10709, "t": 1782967894.5198817}
+{"ev": "vad", "id": 8, "mode": "always_on", "P": 0, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 26.9, "stt_ms": 18.6, "text_len": 8, "t": 1782967895.9200628}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967896.009046}
+{"ev": "res", "mode": "always_on", "cpu": 4.5, "ram": 42.2, "gpu": 1, "gpu_mem_mb": 10717, "t": 1782967896.520989}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 42.2, "gpu": 1, "gpu_mem_mb": 10717, "t": 1782967898.5218112}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10723, "t": 1782967900.5227745}
+{"ev": "res", "mode": "always_on", "cpu": 4.9, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10738, "t": 1782967902.5237782}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 42.2, "gpu": 3, "gpu_mem_mb": 10736, "t": 1782967904.5248065}
+{"ev": "resp", "id": 8, "server_ms": 7498.1, "tts_ms": 1766.3, "osc_ms": 0.2, "total_s": 9.616, "play_len": 29.14, "chars": 390, "words": 72, "block": 1, "selfloop": 0, "ans": "I am King Sejong, the fourth king of the Joseon Dynasty, and I am honored to have been asked to respond. As the founder of the Hangul alphabet, I am proud to have created a writing system that has enabled the common people to read and write, and to have democratized knowledge and education in our great nation. May my legacy continue to benefit the people of Korea for generations to come.", "t": 1782967905.1859372}
+{"ev": "res", "mode": "always_on", "cpu": 4.9, "ram": 42.3, "gpu": 2, "gpu_mem_mb": 10731, "t": 1782967906.525975}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 42.3, "gpu": 2, "gpu_mem_mb": 10729, "t": 1782967908.526758}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10719, "t": 1782967910.5277963}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10714, "t": 1782967912.5288079}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10713, "t": 1782967914.5296392}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10709, "t": 1782967916.5308013}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10713, "t": 1782967918.5317643}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10713, "t": 1782967920.5328}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10713, "t": 1782967922.5337563}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 42.2, "gpu": 2, "gpu_mem_mb": 10732, "t": 1782967924.5347848}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 42.3, "gpu": 18, "gpu_mem_mb": 10750, "t": 1782967926.5365222}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 42.3, "gpu": 5, "gpu_mem_mb": 10735, "t": 1782967928.5368667}
+{"ev": "res", "mode": "always_on", "cpu": 8.1, "ram": 42.5, "gpu": 6, "gpu_mem_mb": 10747, "t": 1782967930.5378962}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 42.4, "gpu": 5, "gpu_mem_mb": 10741, "t": 1782967932.538886}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967934.4937134}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10732, "t": 1782967934.5400233}
+{"ev": "vad", "id": 9, "mode": "always_on", "P": 0, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 20.9, "stt_ms": 19.1, "text_len": 4, "t": 1782967935.89769}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967935.9422998}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 42.6, "gpu": 0, "gpu_mem_mb": 10734, "t": 1782967936.540887}
+{"ev": "res", "mode": "always_on", "cpu": 4.2, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10731, "t": 1782967938.5416594}
+{"ev": "res", "mode": "always_on", "cpu": 3.6, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10720, "t": 1782967940.5436218}
+{"ev": "res", "mode": "always_on", "cpu": 2.8, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10713, "t": 1782967942.5446298}
+{"ev": "resp", "id": 9, "server_ms": 6417.9, "tts_ms": 1665.4, "osc_ms": 0.1, "total_s": 8.431, "play_len": 26.83, "chars": 345, "words": 61, "block": 1, "selfloop": 0, "ans": "My loyal subject, your apology is unnecessary, for it is a virtue to acknowledge one's mistakes. As the ruler of this great kingdom, I am committed to the well-being and prosperity of our people, and I shall continue to strive for wisdom and justice. Let us focus on the things that bring us closer together, rather than dwelling on past errors.", "t": 1782967943.981716}
+{"ev": "res", "mode": "always_on", "cpu": 5.2, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10713, "t": 1782967944.5474534}
+{"ev": "res", "mode": "always_on", "cpu": 4.5, "ram": 42.1, "gpu": 3, "gpu_mem_mb": 10722, "t": 1782967946.5485888}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 42.1, "gpu": 2, "gpu_mem_mb": 10714, "t": 1782967948.5511117}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 42.1, "gpu": 3, "gpu_mem_mb": 10727, "t": 1782967950.552011}
+{"ev": "res", "mode": "always_on", "cpu": 8.4, "ram": 42.6, "gpu": 0, "gpu_mem_mb": 10798, "t": 1782967952.5535657}
+{"ev": "res", "mode": "always_on", "cpu": 8.4, "ram": 42.7, "gpu": 3, "gpu_mem_mb": 10804, "t": 1782967954.5545247}
+{"ev": "res", "mode": "always_on", "cpu": 11.8, "ram": 43.7, "gpu": 3, "gpu_mem_mb": 10867, "t": 1782967956.5548635}
+{"ev": "res", "mode": "always_on", "cpu": 10.5, "ram": 44.2, "gpu": 4, "gpu_mem_mb": 10862, "t": 1782967958.555766}
+{"ev": "res", "mode": "always_on", "cpu": 8.3, "ram": 44.4, "gpu": 4, "gpu_mem_mb": 10871, "t": 1782967960.5566463}
+{"ev": "res", "mode": "always_on", "cpu": 8.5, "ram": 44.5, "gpu": 1, "gpu_mem_mb": 10869, "t": 1782967962.5571978}
+{"ev": "res", "mode": "always_on", "cpu": 7.9, "ram": 44.4, "gpu": 3, "gpu_mem_mb": 10871, "t": 1782967964.5589201}
+{"ev": "res", "mode": "always_on", "cpu": 7.1, "ram": 44.3, "gpu": 1, "gpu_mem_mb": 10871, "t": 1782967966.5599024}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 44.2, "gpu": 2, "gpu_mem_mb": 10869, "t": 1782967968.560788}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 44.2, "gpu": 4, "gpu_mem_mb": 10864, "t": 1782967970.5619552}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782967971.1186647}
+{"ev": "vad", "id": 10, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.4, "stt_ms": 20.9, "text_len": 9, "t": 1782967972.5022073}
+{"ev": "res", "mode": "always_on", "cpu": 11.5, "ram": 45.1, "gpu": 65, "gpu_mem_mb": 10938, "t": 1782967972.5628843}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782967972.6144028}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 45.5, "gpu": 2, "gpu_mem_mb": 10945, "t": 1782967974.5643206}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 45.7, "gpu": 6, "gpu_mem_mb": 10940, "t": 1782967976.5649734}
+{"ev": "res", "mode": "always_on", "cpu": 4.7, "ram": 45.7, "gpu": 3, "gpu_mem_mb": 10930, "t": 1782967978.565754}
+{"ev": "res", "mode": "always_on", "cpu": 5.5, "ram": 45.7, "gpu": 2, "gpu_mem_mb": 10939, "t": 1782967980.56673}
+{"ev": "resp", "id": 10, "server_ms": 6741.5, "tts_ms": 2904.3, "osc_ms": 0.2, "total_s": 9.998, "play_len": 29.71, "chars": 374, "words": 68, "block": 1, "selfloop": 0, "ans": "As the great King Sejong, I am filled with a deep sense of pride and satisfaction, knowing that my endeavors to promote the welfare of my people and the advancement of our great nation have borne fruit. I am humbled by the blessings of Heaven and grateful for the trust placed in me by my people. May my legacy continue to inspire future generations to strive for greatness.", "t": 1782967982.1507542}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 45.6, "gpu": 4, "gpu_mem_mb": 10946, "t": 1782967982.567847}
+{"ev": "res", "mode": "always_on", "cpu": 7.9, "ram": 45.7, "gpu": 2, "gpu_mem_mb": 10942, "t": 1782967984.5717444}
+{"ev": "res", "mode": "always_on", "cpu": 9.0, "ram": 45.5, "gpu": 4, "gpu_mem_mb": 10956, "t": 1782967986.5723536}
+{"ev": "res", "mode": "always_on", "cpu": 9.1, "ram": 44.3, "gpu": 6, "gpu_mem_mb": 10914, "t": 1782967988.572983}
+{"ev": "res", "mode": "always_on", "cpu": 8.4, "ram": 44.6, "gpu": 5, "gpu_mem_mb": 10911, "t": 1782967990.5739574}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 44.4, "gpu": 1, "gpu_mem_mb": 10900, "t": 1782967992.575006}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 44.4, "gpu": 1, "gpu_mem_mb": 10890, "t": 1782967994.576546}
+{"ev": "res", "mode": "always_on", "cpu": 12.9, "ram": 45.4, "gpu": 5, "gpu_mem_mb": 10966, "t": 1782967996.5780582}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 45.4, "gpu": 3, "gpu_mem_mb": 10960, "t": 1782967998.5788205}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 45.4, "gpu": 2, "gpu_mem_mb": 10942, "t": 1782968000.5791552}
+{"ev": "res", "mode": "always_on", "cpu": 8.6, "ram": 45.3, "gpu": 6, "gpu_mem_mb": 10933, "t": 1782968002.5799003}
+{"ev": "res", "mode": "always_on", "cpu": 7.8, "ram": 45.3, "gpu": 1, "gpu_mem_mb": 10933, "t": 1782968004.5811095}
+{"ev": "res", "mode": "always_on", "cpu": 7.9, "ram": 45.2, "gpu": 2, "gpu_mem_mb": 10934, "t": 1782968006.5826397}
+{"ev": "res", "mode": "always_on", "cpu": 8.2, "ram": 45.2, "gpu": 3, "gpu_mem_mb": 10930, "t": 1782968008.5830114}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 45.2, "gpu": 2, "gpu_mem_mb": 10920, "t": 1782968010.5847352}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968012.0218165}
+{"ev": "res", "mode": "always_on", "cpu": 7.1, "ram": 45.1, "gpu": 3, "gpu_mem_mb": 10921, "t": 1782968012.587292}
+{"ev": "res", "mode": "always_on", "cpu": 5.1, "ram": 45.1, "gpu": 5, "gpu_mem_mb": 10917, "t": 1782968014.588224}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 45.1, "gpu": 1, "gpu_mem_mb": 10920, "t": 1782968016.5897734}
+{"ev": "vad", "id": 11, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 20.3, "stt_ms": 18.7, "text_len": 5, "t": 1782968017.26309}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968017.3398569}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 45.1, "gpu": 2, "gpu_mem_mb": 10915, "t": 1782968018.590812}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 45.1, "gpu": 1, "gpu_mem_mb": 10919, "t": 1782968020.5928936}
+{"ev": "res", "mode": "always_on", "cpu": 4.2, "ram": 45.1, "gpu": 1, "gpu_mem_mb": 10915, "t": 1782968022.5939248}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 45.1, "gpu": 2, "gpu_mem_mb": 10917, "t": 1782968024.5953686}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 44.9, "gpu": 6, "gpu_mem_mb": 10946, "t": 1782968026.5960734}
+{"ev": "resp", "id": 11, "server_ms": 6350.9, "tts_ms": 3213.4, "osc_ms": 0.1, "total_s": 9.764, "play_len": 26.98, "chars": 327, "words": 58, "block": 1, "selfloop": 0, "ans": "I, King Sejong, shall respond with wisdom and benevolence. As the fourth king of the Joseon Dynasty, I have dedicated myself to the well-being of my people and the prosperity of our great nation. It is my utmost duty to ensure the happiness and harmony of our kingdom, and I shall continue to work tirelessly towards this goal.", "t": 1782968026.8290756}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 45.2, "gpu": 3, "gpu_mem_mb": 10946, "t": 1782968028.5968943}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 45.2, "gpu": 2, "gpu_mem_mb": 10937, "t": 1782968030.5976622}
+{"ev": "res", "mode": "always_on", "cpu": 8.6, "ram": 45.2, "gpu": 2, "gpu_mem_mb": 10919, "t": 1782968032.599178}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 45.1, "gpu": 4, "gpu_mem_mb": 10933, "t": 1782968034.5998886}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 45.1, "gpu": 6, "gpu_mem_mb": 10950, "t": 1782968036.6003585}
+{"ev": "res", "mode": "always_on", "cpu": 5.5, "ram": 45.1, "gpu": 3, "gpu_mem_mb": 10953, "t": 1782968038.601347}
+{"ev": "res", "mode": "always_on", "cpu": 9.0, "ram": 45.4, "gpu": 6, "gpu_mem_mb": 10970, "t": 1782968040.6026008}
+{"ev": "res", "mode": "always_on", "cpu": 9.5, "ram": 45.5, "gpu": 7, "gpu_mem_mb": 10970, "t": 1782968042.603847}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 45.5, "gpu": 1, "gpu_mem_mb": 10960, "t": 1782968044.6053243}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 45.5, "gpu": 3, "gpu_mem_mb": 10964, "t": 1782968046.606136}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 45.3, "gpu": 2, "gpu_mem_mb": 10954, "t": 1782968048.6068397}
+{"ev": "res", "mode": "always_on", "cpu": 12.1, "ram": 45.6, "gpu": 5, "gpu_mem_mb": 10949, "t": 1782968050.6074982}
+{"ev": "res", "mode": "always_on", "cpu": 10.3, "ram": 45.8, "gpu": 3, "gpu_mem_mb": 10929, "t": 1782968052.607977}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968053.9061205}
+{"ev": "res", "mode": "always_on", "cpu": 10.1, "ram": 45.7, "gpu": 7, "gpu_mem_mb": 10925, "t": 1782968054.6091352}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 45.8, "gpu": 5, "gpu_mem_mb": 10902, "t": 1782968056.6099946}
+{"ev": "vad", "id": 12, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 16.1, "stt_ms": 20.2, "text_len": 4, "t": 1782968058.2668426}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968058.3117855}
+{"ev": "res", "mode": "always_on", "cpu": 5.2, "ram": 45.7, "gpu": 100, "gpu_mem_mb": 10902, "t": 1782968058.6111636}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 45.6, "gpu": 1, "gpu_mem_mb": 10907, "t": 1782968060.6118824}
+{"ev": "res", "mode": "always_on", "cpu": 5.3, "ram": 45.6, "gpu": 3, "gpu_mem_mb": 10903, "t": 1782968062.61313}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 45.6, "gpu": 3, "gpu_mem_mb": 10899, "t": 1782968064.6137114}
+{"ev": "resp", "id": 12, "server_ms": 6008.7, "tts_ms": 1407.9, "osc_ms": 0.1, "total_s": 7.749, "play_len": 23.16, "chars": 277, "words": 52, "block": 1, "selfloop": 0, "ans": "Honorable subject, I am pleased to converse with you and share my thoughts on the welfare of our great Joseon dynasty. As a just and wise ruler, it is my duty to ensure the prosperity and peace of our people. May our discussion be guided by the principles of virtue and wisdom.", "t": 1782968065.6845427}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 45.7, "gpu": 3, "gpu_mem_mb": 10912, "t": 1782968066.6161873}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 44.8, "gpu": 5, "gpu_mem_mb": 10923, "t": 1782968068.616982}
+{"ev": "res", "mode": "always_on", "cpu": 9.6, "ram": 45.0, "gpu": 2, "gpu_mem_mb": 10892, "t": 1782968070.6181922}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 44.9, "gpu": 2, "gpu_mem_mb": 10878, "t": 1782968072.6187246}
+{"ev": "res", "mode": "always_on", "cpu": 8.3, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10853, "t": 1782968074.619666}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 44.7, "gpu": 7, "gpu_mem_mb": 10841, "t": 1782968076.620922}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10841, "t": 1782968078.6218872}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10843, "t": 1782968080.6230605}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10845, "t": 1782968082.6239636}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10854, "t": 1782968084.6248717}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10859, "t": 1782968086.625949}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10855, "t": 1782968088.6270866}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968089.201741}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 44.7, "gpu": 2, "gpu_mem_mb": 10853, "t": 1782968090.6291213}
+{"ev": "vad", "id": 13, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 15.5, "stt_ms": 18.6, "text_len": 4, "t": 1782968091.646827}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968091.7482123}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 44.7, "gpu": 0, "gpu_mem_mb": 10849, "t": 1782968092.6299145}
+{"ev": "res", "mode": "always_on", "cpu": 3.3, "ram": 44.7, "gpu": 5, "gpu_mem_mb": 10858, "t": 1782968094.6315663}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 44.7, "gpu": 1, "gpu_mem_mb": 10880, "t": 1782968096.6332393}
+{"ev": "resp", "id": 13, "server_ms": 4192.5, "tts_ms": 1958.4, "osc_ms": 0.1, "total_s": 6.558, "play_len": 14.95, "chars": 208, "words": 38, "block": 1, "selfloop": 0, "ans": "As the great King Sejong, I decree that the dictates of time be respected, and that our people be punctual and faithful in their duties, for the harmony of the kingdom depends on the synchrony of our actions.", "t": 1782968097.7990067}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 44.3, "gpu": 2, "gpu_mem_mb": 10900, "t": 1782968098.634305}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.9, "gpu": 5, "gpu_mem_mb": 10841, "t": 1782968100.6358392}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10817, "t": 1782968102.6371338}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10812, "t": 1782968104.6380086}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10812, "t": 1782968106.6389668}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10797, "t": 1782968108.6402457}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.8, "gpu": 5, "gpu_mem_mb": 10794, "t": 1782968110.6410158}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.8, "gpu": 7, "gpu_mem_mb": 10784, "t": 1782968112.6425629}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968112.8947496}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968114.643841}
+{"ev": "res", "mode": "always_on", "cpu": 3.6, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968116.6445887}
+{"ev": "res", "mode": "always_on", "cpu": 3.1, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968118.645142}
+{"ev": "res", "mode": "always_on", "cpu": 5.3, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968120.6462488}
+{"ev": "res", "mode": "always_on", "cpu": 3.5, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968122.6473162}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968124.6482606}
+{"ev": "vad", "id": 14, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 23.0, "stt_ms": 18.6, "text_len": 0, "t": 1782968125.2552357}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 42.7, "gpu": 0, "gpu_mem_mb": 10789, "t": 1782968126.649506}
+{"ev": "res", "mode": "always_on", "cpu": 4.9, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10789, "t": 1782968128.6502595}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 42.6, "gpu": 3, "gpu_mem_mb": 10788, "t": 1782968130.6511178}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10785, "t": 1782968132.6523385}
+{"ev": "res", "mode": "always_on", "cpu": 2.7, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10786, "t": 1782968134.6533232}
+{"ev": "res", "mode": "always_on", "cpu": 2.4, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10784, "t": 1782968136.6545782}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10784, "t": 1782968138.656216}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10790, "t": 1782968140.657624}
+{"ev": "res", "mode": "always_on", "cpu": 5.0, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10806, "t": 1782968142.6591818}
+{"ev": "res", "mode": "always_on", "cpu": 4.0, "ram": 42.8, "gpu": 3, "gpu_mem_mb": 10811, "t": 1782968144.6604183}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.8, "gpu": 3, "gpu_mem_mb": 10867, "t": 1782968146.6619117}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10872, "t": 1782968148.6638958}
+{"ev": "res", "mode": "always_on", "cpu": 4.7, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10820, "t": 1782968150.666181}
+{"ev": "res", "mode": "always_on", "cpu": 4.6, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10806, "t": 1782968152.6665318}
+{"ev": "res", "mode": "always_on", "cpu": 4.9, "ram": 42.7, "gpu": 3, "gpu_mem_mb": 10847, "t": 1782968154.6674294}
+{"ev": "res", "mode": "always_on", "cpu": 4.4, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10834, "t": 1782968156.6686654}
+{"ev": "res", "mode": "always_on", "cpu": 3.3, "ram": 42.7, "gpu": 3, "gpu_mem_mb": 10825, "t": 1782968158.6689928}
+{"ev": "res", "mode": "always_on", "cpu": 4.4, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10822, "t": 1782968160.6693754}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 42.7, "gpu": 3, "gpu_mem_mb": 10818, "t": 1782968162.6703537}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 42.7, "gpu": 4, "gpu_mem_mb": 10815, "t": 1782968164.6718903}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10832, "t": 1782968166.67316}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10828, "t": 1782968168.673957}
+{"ev": "res", "mode": "always_on", "cpu": 4.2, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10822, "t": 1782968170.6754565}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10815, "t": 1782968172.6766493}
+{"ev": "res", "mode": "always_on", "cpu": 4.3, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10810, "t": 1782968174.678185}
+{"ev": "res", "mode": "always_on", "cpu": 4.4, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10814, "t": 1782968176.6798077}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 42.7, "gpu": 4, "gpu_mem_mb": 10814, "t": 1782968178.6807175}
+{"ev": "res", "mode": "always_on", "cpu": 4.2, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10814, "t": 1782968180.6820073}
+{"ev": "res", "mode": "always_on", "cpu": 3.3, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10814, "t": 1782968182.6830487}
+{"ev": "res", "mode": "always_on", "cpu": 4.7, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10806, "t": 1782968184.6850016}
+{"ev": "res", "mode": "always_on", "cpu": 4.4, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10836, "t": 1782968186.6861503}
+{"ev": "res", "mode": "always_on", "cpu": 5.2, "ram": 42.7, "gpu": 5, "gpu_mem_mb": 10835, "t": 1782968188.6864393}
+{"ev": "res", "mode": "always_on", "cpu": 3.3, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10824, "t": 1782968190.6872385}
+{"ev": "res", "mode": "always_on", "cpu": 4.2, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10812, "t": 1782968192.688105}
+{"ev": "res", "mode": "always_on", "cpu": 2.8, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10811, "t": 1782968194.6886945}
+{"ev": "res", "mode": "always_on", "cpu": 2.8, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10809, "t": 1782968196.6896517}
+{"ev": "res", "mode": "always_on", "cpu": 3.6, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10803, "t": 1782968198.6903975}
+{"ev": "res", "mode": "always_on", "cpu": 3.2, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10803, "t": 1782968200.6910505}
+{"ev": "vad", "id": 15, "mode": "always_on", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 19.9, "stt_ms": 19.2, "text_len": 0, "t": 1782968201.2318277}
+{"ev": "res", "mode": "always_on", "cpu": 3.2, "ram": 42.6, "gpu": 0, "gpu_mem_mb": 10803, "t": 1782968202.6919446}
+{"ev": "vad", "id": 16, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 18.2, "stt_ms": 18.9, "text_len": 0, "t": 1782968202.995519}
+{"ev": "res", "mode": "always_on", "cpu": 3.2, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10803, "t": 1782968204.692874}
+{"ev": "vad", "id": 17, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.9, "stt_ms": 18.8, "text_len": 6, "t": 1782968206.2418892}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968206.3011837}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 42.6, "gpu": 54, "gpu_mem_mb": 10822, "t": 1782968206.6942198}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 42.6, "gpu": 0, "gpu_mem_mb": 10822, "t": 1782968208.6948388}
+{"ev": "res", "mode": "always_on", "cpu": 2.8, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10808, "t": 1782968210.6960652}
+{"ev": "res", "mode": "always_on", "cpu": 4.6, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10817, "t": 1782968212.6970487}
+{"ev": "resp", "id": 17, "server_ms": 5493.1, "tts_ms": 2953.0, "osc_ms": 0.2, "total_s": 8.766, "play_len": 23.14, "chars": 284, "words": 50, "block": 1, "selfloop": 0, "ans": "As the wise and just King Sejong, I shall not be swayed by fleeting whims or petty desires. My reign shall be marked by wisdom, justice, and the advancement of our great Joseon nation. The people shall prosper under my guidance, and our kingdom shall flourish for generations to come.", "t": 1782968214.6880796}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 42.6, "gpu": 1, "gpu_mem_mb": 10817, "t": 1782968214.6980963}
+{"ev": "res", "mode": "always_on", "cpu": 4.9, "ram": 42.7, "gpu": 3, "gpu_mem_mb": 10812, "t": 1782968216.6984737}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10811, "t": 1782968218.699105}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10805, "t": 1782968220.7004604}
+{"ev": "res", "mode": "always_on", "cpu": 5.3, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10800, "t": 1782968222.7017121}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.7, "gpu": 7, "gpu_mem_mb": 10813, "t": 1782968224.7022643}
+{"ev": "res", "mode": "always_on", "cpu": 7.9, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10831, "t": 1782968226.7030113}
+{"ev": "res", "mode": "always_on", "cpu": 7.8, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10829, "t": 1782968228.7043924}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10828, "t": 1782968230.7049692}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 42.7, "gpu": 5, "gpu_mem_mb": 10806, "t": 1782968232.7055821}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.7, "gpu": 2, "gpu_mem_mb": 10802, "t": 1782968234.7065055}
+{"ev": "res", "mode": "always_on", "cpu": 9.8, "ram": 43.8, "gpu": 9, "gpu_mem_mb": 10882, "t": 1782968236.7073507}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968237.9085233}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 43.8, "gpu": 3, "gpu_mem_mb": 10877, "t": 1782968238.707909}
+{"ev": "vad", "id": 18, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 22.8, "stt_ms": 18.9, "text_len": 11, "t": 1782968240.2221298}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968240.3143506}
+{"ev": "res", "mode": "always_on", "cpu": 5.0, "ram": 43.8, "gpu": 55, "gpu_mem_mb": 10852, "t": 1782968240.7085714}
+{"ev": "res", "mode": "always_on", "cpu": 4.7, "ram": 43.8, "gpu": 1, "gpu_mem_mb": 10826, "t": 1782968242.7093194}
+{"ev": "res", "mode": "always_on", "cpu": 2.8, "ram": 43.7, "gpu": 1, "gpu_mem_mb": 10818, "t": 1782968244.71016}
+{"ev": "resp", "id": 18, "server_ms": 4563.0, "tts_ms": 1212.2, "osc_ms": 0.1, "total_s": 6.06, "play_len": 17.59, "chars": 214, "words": 41, "block": 1, "selfloop": 0, "ans": "I am King Sejong, the fourth king of the Joseon Dynasty, and I am delighted to converse with you. However, I must prioritize my royal duties, and a brief interval of time is all that I can spare for our discussion.", "t": 1782968245.9979556}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 43.7, "gpu": 3, "gpu_mem_mb": 10834, "t": 1782968246.7112708}
+{"ev": "res", "mode": "always_on", "cpu": 5.1, "ram": 43.7, "gpu": 1, "gpu_mem_mb": 10833, "t": 1782968248.711713}
+{"ev": "res", "mode": "always_on", "cpu": 5.2, "ram": 43.7, "gpu": 1, "gpu_mem_mb": 10823, "t": 1782968250.7130032}
+{"ev": "res", "mode": "always_on", "cpu": 8.1, "ram": 42.8, "gpu": 7, "gpu_mem_mb": 10871, "t": 1782968252.7143881}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 42.8, "gpu": 5, "gpu_mem_mb": 10846, "t": 1782968254.7150376}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 42.8, "gpu": 6, "gpu_mem_mb": 10832, "t": 1782968256.71574}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 42.7, "gpu": 5, "gpu_mem_mb": 10825, "t": 1782968258.7169557}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10823, "t": 1782968260.7173207}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10815, "t": 1782968262.718535}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968263.78732}
+{"ev": "res", "mode": "always_on", "cpu": 7.7, "ram": 42.8, "gpu": 6, "gpu_mem_mb": 10824, "t": 1782968264.7192347}
+{"ev": "vad", "id": 19, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 18.5, "stt_ms": 18.9, "text_len": 0, "t": 1782968265.1975534}
+{"ev": "vad", "id": 20, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 18.4, "stt_ms": 18.7, "text_len": 8, "t": 1782968265.9025557}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968265.9425704}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10856, "t": 1782968266.7204573}
+{"ev": "res", "mode": "always_on", "cpu": 4.5, "ram": 42.9, "gpu": 1, "gpu_mem_mb": 10805, "t": 1782968268.721218}
+{"ev": "res", "mode": "always_on", "cpu": 3.0, "ram": 42.9, "gpu": 4, "gpu_mem_mb": 10796, "t": 1782968270.7224503}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 42.9, "gpu": 3, "gpu_mem_mb": 10770, "t": 1782968272.7234855}
+{"ev": "resp", "id": 20, "server_ms": 5531.9, "tts_ms": 2639.6, "osc_ms": 0.1, "total_s": 8.254, "play_len": 23.93, "chars": 292, "words": 50, "block": 1, "selfloop": 0, "ans": "I, King Sejong, am humbled by the inquiry. As the founder of the Joseon Dynasty's cultural and scientific achievements, I am committed to the welfare of my people and the betterment of our great nation. May the blessings of Heaven guide our endeavors and ensure the prosperity of our kingdom.", "t": 1782968274.0763974}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10768, "t": 1782968274.724186}
+{"ev": "res", "mode": "always_on", "cpu": 5.4, "ram": 42.6, "gpu": 4, "gpu_mem_mb": 10768, "t": 1782968276.724572}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 42.5, "gpu": 2, "gpu_mem_mb": 10778, "t": 1782968278.7254512}
+{"ev": "res", "mode": "always_on", "cpu": 8.7, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10776, "t": 1782968280.7260485}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 42.5, "gpu": 3, "gpu_mem_mb": 10768, "t": 1782968282.726534}
+{"ev": "res", "mode": "always_on", "cpu": 7.7, "ram": 42.6, "gpu": 2, "gpu_mem_mb": 10841, "t": 1782968284.7271411}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10847, "t": 1782968286.7280586}
+{"ev": "res", "mode": "always_on", "cpu": 8.4, "ram": 42.9, "gpu": 3, "gpu_mem_mb": 10847, "t": 1782968288.728777}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 42.9, "gpu": 1, "gpu_mem_mb": 10834, "t": 1782968290.7290905}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 43.0, "gpu": 1, "gpu_mem_mb": 10870, "t": 1782968292.729855}
+{"ev": "res", "mode": "always_on", "cpu": 8.3, "ram": 42.9, "gpu": 2, "gpu_mem_mb": 10816, "t": 1782968294.731119}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 42.9, "gpu": 2, "gpu_mem_mb": 10796, "t": 1782968296.731899}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968298.191523}
+{"ev": "res", "mode": "always_on", "cpu": 8.6, "ram": 42.9, "gpu": 4, "gpu_mem_mb": 10785, "t": 1782968298.7332308}
+{"ev": "vad", "id": 21, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 18.4, "stt_ms": 18.9, "text_len": 9, "t": 1782968299.620093}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968299.741071}
+{"ev": "res", "mode": "always_on", "cpu": 5.0, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10783, "t": 1782968300.7345545}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10853, "t": 1782968302.735562}
+{"ev": "res", "mode": "always_on", "cpu": 3.6, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10837, "t": 1782968304.7362502}
+{"ev": "res", "mode": "always_on", "cpu": 4.4, "ram": 42.7, "gpu": 5, "gpu_mem_mb": 10841, "t": 1782968306.7375348}
+{"ev": "res", "mode": "always_on", "cpu": 3.1, "ram": 42.7, "gpu": 1, "gpu_mem_mb": 10826, "t": 1782968308.7385688}
+{"ev": "resp", "id": 21, "server_ms": 7263.6, "tts_ms": 1916.6, "osc_ms": 0.2, "total_s": 9.569, "play_len": 28.82, "chars": 364, "words": 60, "block": 1, "selfloop": 0, "ans": "The esteemed scholar's query regarding the Dohwa-ri Air Style has reached my imperial ears. I, King Sejong, the great king who unified the Korean people and reformed the state, shall respond with wisdom and authority. The Dohwa-ri Air Style, a unique and innovative design, was created by my own hands, and its secrets shall remain with the Joseon dynasty forever.", "t": 1782968308.8012393}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10818, "t": 1782968310.7390544}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 42.8, "gpu": 3, "gpu_mem_mb": 10804, "t": 1782968312.7401638}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10804, "t": 1782968314.74128}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 42.8, "gpu": 5, "gpu_mem_mb": 10804, "t": 1782968316.742506}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10806, "t": 1782968318.7432399}
+{"ev": "res", "mode": "always_on", "cpu": 6.9, "ram": 42.8, "gpu": 5, "gpu_mem_mb": 10802, "t": 1782968320.74437}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 42.8, "gpu": 1, "gpu_mem_mb": 10807, "t": 1782968322.744764}
+{"ev": "res", "mode": "always_on", "cpu": 8.3, "ram": 42.8, "gpu": 3, "gpu_mem_mb": 10806, "t": 1782968324.7452657}
+{"ev": "res", "mode": "always_on", "cpu": 8.4, "ram": 42.8, "gpu": 2, "gpu_mem_mb": 10824, "t": 1782968326.746455}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 42.8, "gpu": 5, "gpu_mem_mb": 10827, "t": 1782968328.7472908}
+{"ev": "res", "mode": "always_on", "cpu": 11.7, "ram": 44.2, "gpu": 9, "gpu_mem_mb": 10881, "t": 1782968330.7486246}
+{"ev": "res", "mode": "always_on", "cpu": 8.7, "ram": 44.5, "gpu": 2, "gpu_mem_mb": 10868, "t": 1782968332.749682}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 44.5, "gpu": 3, "gpu_mem_mb": 10868, "t": 1782968334.7505565}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 44.4, "gpu": 2, "gpu_mem_mb": 10844, "t": 1782968336.751028}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968337.6931832}
+{"ev": "res", "mode": "always_on", "cpu": 8.6, "ram": 44.3, "gpu": 4, "gpu_mem_mb": 10844, "t": 1782968338.7521815}
+{"ev": "vad", "id": 22, "mode": "always_on", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 18.4, "stt_ms": 18.5, "text_len": 6, "t": 1782968339.9689734}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968340.0394788}
+{"ev": "res", "mode": "always_on", "cpu": 3.8, "ram": 44.2, "gpu": 0, "gpu_mem_mb": 10837, "t": 1782968340.7526846}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10838, "t": 1782968342.7535963}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10838, "t": 1782968344.7543936}
+{"ev": "resp", "id": 22, "server_ms": 5094.9, "tts_ms": 1404.8, "osc_ms": 0.1, "total_s": 6.748, "play_len": 21.0, "chars": 267, "words": 47, "block": 1, "selfloop": 0, "ans": "As King Sejong, I am honored to have ruled Korea for 12 years, during which I have worked tirelessly to promote the welfare of my people and to establish a strong and prosperous nation. My efforts have been guided by the principles of justice, compassion, and wisdom.", "t": 1782968346.4699924}
+{"ev": "res", "mode": "always_on", "cpu": 4.6, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10842, "t": 1782968346.755458}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 44.2, "gpu": 3, "gpu_mem_mb": 10849, "t": 1782968348.7565963}
+{"ev": "res", "mode": "always_on", "cpu": 6.5, "ram": 44.2, "gpu": 2, "gpu_mem_mb": 10842, "t": 1782968350.7576003}
+{"ev": "res", "mode": "always_on", "cpu": 5.3, "ram": 44.2, "gpu": 0, "gpu_mem_mb": 10835, "t": 1782968352.7585013}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 44.2, "gpu": 3, "gpu_mem_mb": 10835, "t": 1782968354.759291}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 44.2, "gpu": 0, "gpu_mem_mb": 10844, "t": 1782968356.7601945}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 44.2, "gpu": 1, "gpu_mem_mb": 10847, "t": 1782968358.7614849}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 43.9, "gpu": 3, "gpu_mem_mb": 10851, "t": 1782968360.7621467}
+{"ev": "res", "mode": "always_on", "cpu": 8.1, "ram": 44.0, "gpu": 1, "gpu_mem_mb": 10846, "t": 1782968362.7625995}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 44.0, "gpu": 0, "gpu_mem_mb": 10843, "t": 1782968364.763545}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 44.0, "gpu": 3, "gpu_mem_mb": 10836, "t": 1782968366.764362}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968367.5977879}
+{"ev": "res", "mode": "always_on", "cpu": 5.8, "ram": 44.0, "gpu": 0, "gpu_mem_mb": 10850, "t": 1782968368.765547}
+{"ev": "vad", "id": 23, "mode": "always_on", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.3, "stt_ms": 18.7, "text_len": 0, "t": 1782968369.9741273}
+{"ev": "vad", "id": 24, "mode": "always_on", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 25.0, "stt_ms": 20.0, "text_len": 6, "t": 1782968370.746031}
+{"ev": "res", "mode": "always_on", "cpu": 5.3, "ram": 44.0, "gpu": 2, "gpu_mem_mb": 10853, "t": 1782968370.7665544}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968370.8180783}
+{"ev": "res", "mode": "always_on", "cpu": 3.6, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10848, "t": 1782968372.7668343}
+{"ev": "res", "mode": "always_on", "cpu": 3.3, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10852, "t": 1782968374.7675238}
+{"ev": "res", "mode": "always_on", "cpu": 4.8, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10879, "t": 1782968376.7688222}
+{"ev": "resp", "id": 24, "server_ms": 5504.6, "tts_ms": 1825.3, "osc_ms": 0.1, "total_s": 7.426, "play_len": 20.33, "chars": 265, "words": 48, "block": 1, "selfloop": 0, "ans": "I am King Sejong, the fourth king of the Joseon Dynasty, and I am honored to be addressing you. As the founder of the Hunminjeongeum, the Korean writing system, I am proud to have created a unique and beautiful script that has brought literacy to the Korean people.", "t": 1782968378.0768263}
+{"ev": "res", "mode": "always_on", "cpu": 4.9, "ram": 44.2, "gpu": 13, "gpu_mem_mb": 10867, "t": 1782968378.7697077}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 44.2, "gpu": 0, "gpu_mem_mb": 10879, "t": 1782968380.7704923}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 44.2, "gpu": 2, "gpu_mem_mb": 10889, "t": 1782968382.7710304}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 44.2, "gpu": 3, "gpu_mem_mb": 10879, "t": 1782968384.7716644}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 44.2, "gpu": 1, "gpu_mem_mb": 10886, "t": 1782968386.772059}
+{"ev": "res", "mode": "always_on", "cpu": 5.4, "ram": 44.2, "gpu": 1, "gpu_mem_mb": 10884, "t": 1782968388.7728744}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 44.2, "gpu": 3, "gpu_mem_mb": 10867, "t": 1782968390.7746124}
+{"ev": "res", "mode": "always_on", "cpu": 6.0, "ram": 44.1, "gpu": 2, "gpu_mem_mb": 10875, "t": 1782968392.7758603}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 44.2, "gpu": 4, "gpu_mem_mb": 10875, "t": 1782968394.7765837}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10874, "t": 1782968396.7772906}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968398.5927696}
+{"ev": "res", "mode": "always_on", "cpu": 8.6, "ram": 44.3, "gpu": 1, "gpu_mem_mb": 10878, "t": 1782968398.7777765}
+{"ev": "vad", "id": 25, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.0, "stt_ms": 19.9, "text_len": 0, "t": 1782968399.959859}
+{"ev": "vad", "id": 26, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 23.0, "stt_ms": 19.3, "text_len": 12, "t": 1782968400.7064683}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 44.2, "gpu": 2, "gpu_mem_mb": 10891, "t": 1782968400.7784922}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968400.8412266}
+{"ev": "res", "mode": "always_on", "cpu": 2.9, "ram": 43.8, "gpu": 1, "gpu_mem_mb": 10879, "t": 1782968402.7788575}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 43.7, "gpu": 5, "gpu_mem_mb": 10879, "t": 1782968404.7799683}
+{"ev": "res", "mode": "always_on", "cpu": 3.7, "ram": 43.7, "gpu": 7, "gpu_mem_mb": 10901, "t": 1782968406.7809238}
+{"ev": "resp", "id": 26, "server_ms": 4337.4, "tts_ms": 2267.5, "osc_ms": 0.1, "total_s": 6.688, "play_len": 18.89, "chars": 216, "words": 40, "block": 1, "selfloop": 0, "ans": "I am pleased to hear of your request to meet, but as the King, my duties to the realm must take precedence. I shall consider your proposal and respond accordingly. Until then, may the blessings of Heaven be upon you.", "t": 1782968407.312476}
+{"ev": "res", "mode": "always_on", "cpu": 4.6, "ram": 43.8, "gpu": 3, "gpu_mem_mb": 10898, "t": 1782968408.7815495}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 43.8, "gpu": 2, "gpu_mem_mb": 10891, "t": 1782968410.7825334}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 43.7, "gpu": 1, "gpu_mem_mb": 10879, "t": 1782968412.7836807}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 43.7, "gpu": 1, "gpu_mem_mb": 10875, "t": 1782968414.7848575}
+{"ev": "res", "mode": "always_on", "cpu": 6.8, "ram": 43.8, "gpu": 4, "gpu_mem_mb": 10873, "t": 1782968416.785682}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 44.0, "gpu": 2, "gpu_mem_mb": 10895, "t": 1782968418.7869303}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 44.0, "gpu": 1, "gpu_mem_mb": 10881, "t": 1782968420.7876737}
+{"ev": "res", "mode": "always_on", "cpu": 6.2, "ram": 43.8, "gpu": 5, "gpu_mem_mb": 10885, "t": 1782968422.788897}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 43.8, "gpu": 3, "gpu_mem_mb": 10877, "t": 1782968424.789797}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968426.284829}
+{"ev": "res", "mode": "always_on", "cpu": 9.0, "ram": 44.1, "gpu": 3, "gpu_mem_mb": 10898, "t": 1782968426.7908344}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10891, "t": 1782968428.792261}
+{"ev": "vad", "id": 27, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 18.9, "stt_ms": 19.5, "text_len": 11, "t": 1782968429.4808235}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968429.523088}
+{"ev": "res", "mode": "always_on", "cpu": 4.6, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10898, "t": 1782968430.7928572}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10889, "t": 1782968432.793782}
+{"ev": "res", "mode": "always_on", "cpu": 3.1, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10893, "t": 1782968434.7945836}
+{"ev": "resp", "id": 27, "server_ms": 4360.1, "tts_ms": 1933.1, "osc_ms": 0.1, "total_s": 6.445, "play_len": 18.1, "chars": 219, "words": 38, "block": 1, "selfloop": 0, "ans": "A worthy endeavor indeed. The creation of images, or \"photographs,\" is a most intriguing concept. I shall task the scholars of my court to investigate this matter further, that we may unlock the secrets of this new art.", "t": 1782968435.776004}
+{"ev": "res", "mode": "always_on", "cpu": 3.5, "ram": 44.0, "gpu": 1, "gpu_mem_mb": 10877, "t": 1782968436.7958062}
+{"ev": "res", "mode": "always_on", "cpu": 8.0, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10860, "t": 1782968438.7965374}
+{"ev": "res", "mode": "always_on", "cpu": 6.7, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10860, "t": 1782968440.7977605}
+{"ev": "res", "mode": "always_on", "cpu": 7.1, "ram": 43.9, "gpu": 5, "gpu_mem_mb": 10860, "t": 1782968442.7985444}
+{"ev": "res", "mode": "always_on", "cpu": 6.1, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10860, "t": 1782968444.7998402}
+{"ev": "res", "mode": "always_on", "cpu": 5.6, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10878, "t": 1782968446.800389}
+{"ev": "res", "mode": "always_on", "cpu": 5.7, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10892, "t": 1782968448.800881}
+{"ev": "res", "mode": "always_on", "cpu": 7.4, "ram": 43.9, "gpu": 6, "gpu_mem_mb": 10886, "t": 1782968450.8015938}
+{"ev": "res", "mode": "always_on", "cpu": 6.3, "ram": 43.9, "gpu": 1, "gpu_mem_mb": 10884, "t": 1782968452.8019748}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968454.1889603}
+{"ev": "res", "mode": "always_on", "cpu": 7.8, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10894, "t": 1782968454.8023112}
+{"ev": "vad", "id": 28, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.0, "stt_ms": 19.0, "text_len": 5, "t": 1782968455.536177}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968455.6048572}
+{"ev": "res", "mode": "always_on", "cpu": 5.5, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10892, "t": 1782968456.8028934}
+{"ev": "res", "mode": "always_on", "cpu": 5.2, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10888, "t": 1782968458.8038669}
+{"ev": "res", "mode": "always_on", "cpu": 3.5, "ram": 44.1, "gpu": 1, "gpu_mem_mb": 10883, "t": 1782968460.8049715}
+{"ev": "resp", "id": 28, "server_ms": 5653.6, "tts_ms": 1552.6, "osc_ms": 0.1, "total_s": 7.512, "play_len": 23.02, "chars": 289, "words": 54, "block": 1, "selfloop": 0, "ans": "I, King Sejong, am the fourth king of the Joseon dynasty, and I have dedicated my life to the welfare of my people and the prosperity of my kingdom. My many innovations and reforms have brought great prosperity and peace to our land, and I am proud of the many accomplishments of my reign.", "t": 1782968462.7430377}
+{"ev": "res", "mode": "always_on", "cpu": 3.9, "ram": 44.2, "gpu": 3, "gpu_mem_mb": 10871, "t": 1782968462.8058593}
+{"ev": "res", "mode": "always_on", "cpu": 6.6, "ram": 44.2, "gpu": 2, "gpu_mem_mb": 10866, "t": 1782968464.8070304}
+{"ev": "res", "mode": "always_on", "cpu": 5.9, "ram": 44.3, "gpu": 3, "gpu_mem_mb": 10871, "t": 1782968466.808049}
+{"ev": "res", "mode": "always_on", "cpu": 8.3, "ram": 44.3, "gpu": 5, "gpu_mem_mb": 10877, "t": 1782968468.8087604}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 44.4, "gpu": 1, "gpu_mem_mb": 10872, "t": 1782968470.8095977}
+{"ev": "res", "mode": "always_on", "cpu": 7.2, "ram": 44.4, "gpu": 3, "gpu_mem_mb": 10868, "t": 1782968472.810648}
+{"ev": "res", "mode": "always_on", "cpu": 7.6, "ram": 44.4, "gpu": 4, "gpu_mem_mb": 10871, "t": 1782968474.8110266}
+{"ev": "res", "mode": "always_on", "cpu": 7.3, "ram": 44.4, "gpu": 2, "gpu_mem_mb": 10872, "t": 1782968476.8122165}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 44.4, "gpu": 1, "gpu_mem_mb": 10869, "t": 1782968478.8135016}
+{"ev": "res", "mode": "always_on", "cpu": 7.1, "ram": 44.4, "gpu": 3, "gpu_mem_mb": 10874, "t": 1782968480.815029}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 44.4, "gpu": 3, "gpu_mem_mb": 10870, "t": 1782968482.8161454}
+{"ev": "res", "mode": "always_on", "cpu": 7.0, "ram": 44.3, "gpu": 2, "gpu_mem_mb": 10876, "t": 1782968484.8166635}
+{"ev": "mic", "on": 1, "mode": "always_on", "t": 1782968485.9808195}
+{"ev": "res", "mode": "always_on", "cpu": 7.5, "ram": 44.4, "gpu": 6, "gpu_mem_mb": 10879, "t": 1782968486.8170598}
+{"ev": "vad", "id": 29, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 19.0, "stt_ms": 19.8, "text_len": 0, "t": 1782968487.3421378}
+{"ev": "vad", "id": 30, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 16.5, "stt_ms": 18.9, "text_len": 0, "t": 1782968488.1132178}
+{"ev": "res", "mode": "always_on", "cpu": 5.1, "ram": 44.4, "gpu": 1, "gpu_mem_mb": 10866, "t": 1782968488.8181994}
+{"ev": "res", "mode": "always_on", "cpu": 4.1, "ram": 44.4, "gpu": 1, "gpu_mem_mb": 10866, "t": 1782968490.8193386}
+{"ev": "vad", "id": 31, "mode": "always_on", "P": 1, "F": 0, "V": 1, "gate": 1, "label": "nonuser", "during_playback": 0, "vad_ms": 17.8, "stt_ms": 21.4, "text_len": 8, "t": 1782968491.2521353}
+{"ev": "mic", "on": 0, "mode": "always_on", "t": 1782968491.3111618}
+{"ev": "res", "mode": "always_on", "cpu": 6.4, "ram": 44.3, "gpu": 1, "gpu_mem_mb": 10861, "t": 1782968492.8196993}
+{"ev": "res", "mode": "always_on", "cpu": 4.7, "ram": 44.3, "gpu": 1, "gpu_mem_mb": 10860, "t": 1782968494.8200421}
+{"ev": "res", "mode": "always_on", "cpu": 4.2, "ram": 44.0, "gpu": 3, "gpu_mem_mb": 10855, "t": 1782968496.821022}
+{"ev": "res", "mode": "always_on", "cpu": 3.4, "ram": 44.1, "gpu": 6, "gpu_mem_mb": 10869, "t": 1782968498.8215375}
+{"ev": "resp", "id": 31, "server_ms": 4882.4, "tts_ms": 3352.3, "osc_ms": 0.2, "total_s": 8.453, "play_len": 20.57, "chars": 242, "words": 45, "block": 1, "selfloop": 0, "ans": "My loyal subject, I gaze upon the world with a sense of responsibility and duty, ever mindful of the welfare of my people and the prosperity of my kingdom. My eyes, clear and keen, survey the land, seeking to improve the lives of all Koreans.", "t": 1782968499.4889152}
+{"ev": "summary", "n_vad": 31, "n_stt": 31, "n_llm": 21, "t": 1782968499.6711826}

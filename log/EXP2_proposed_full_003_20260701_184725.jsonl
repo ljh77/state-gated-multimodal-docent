@@ -1,0 +1,173 @@
+{"ev": "meta", "mode": "full", "selfloop_baseline": 0, "label": "", "sr": 16000, "buffer_sec": 1.0, "close_enter": 0.18, "face_sym_on": 0.65, "face_sym_off": 0.5, "face_smooth": 5, "hold": 1.5, "yolo_fps": 5, "yolo": "yolov8n conf0.4 imgsz320", "whisper": "small int8 ko beam1", "vad": "silero default0.5", "face": "mediapipe ms0 keypoint-sym yaw", "t": 1782899245.368764}
+{"ev": "res", "mode": "full", "cpu": 2.6, "ram": 45.7, "gpu": 1, "gpu_mem_mb": 11470, "t": 1782899245.4191089}
+{"ev": "res", "mode": "full", "cpu": 5.1, "ram": 45.9, "gpu": 10, "gpu_mem_mb": 11470, "t": 1782899247.4251723}
+{"ev": "res", "mode": "full", "cpu": 3.1, "ram": 46.0, "gpu": 2, "gpu_mem_mb": 11471, "t": 1782899249.426896}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782899249.4398031}
+{"ev": "res", "mode": "full", "cpu": 3.0, "ram": 46.1, "gpu": 2, "gpu_mem_mb": 11470, "t": 1782899251.4281523}
+{"ev": "vad", "id": 1, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 21.1, "stt_ms": 20.6, "text_len": 5, "t": 1782899251.90121}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782899251.970193}
+{"ev": "res", "mode": "full", "cpu": 3.9, "ram": 46.9, "gpu": 1, "gpu_mem_mb": 11496, "t": 1782899253.4300833}
+{"ev": "res", "mode": "full", "cpu": 2.9, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899255.4316769}
+{"ev": "res", "mode": "full", "cpu": 2.8, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11495, "t": 1782899257.4330635}
+{"ev": "resp", "id": 1, "server_ms": 4316.2, "tts_ms": 1594.3, "osc_ms": 0.2, "total_s": 6.328, "play_len": 17.28, "chars": 200, "words": 36, "block": 1, "selfloop": 0, "ans": "Greetings to you, my loyal subject. May the blessings of the gods be upon you. I, King Sejong, am pleased to converse with one such as yourself, who seeks wisdom and knowledge under my esteemed reign.", "t": 1782899257.8219044}
+{"ev": "res", "mode": "full", "cpu": 3.9, "ram": 46.9, "gpu": 3, "gpu_mem_mb": 11495, "t": 1782899259.4343524}
+{"ev": "res", "mode": "full", "cpu": 6.0, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11495, "t": 1782899261.4350102}
+{"ev": "res", "mode": "full", "cpu": 6.3, "ram": 46.9, "gpu": 3, "gpu_mem_mb": 11496, "t": 1782899263.4364328}
+{"ev": "res", "mode": "full", "cpu": 6.2, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899265.4375184}
+{"ev": "res", "mode": "full", "cpu": 6.4, "ram": 46.9, "gpu": 3, "gpu_mem_mb": 11496, "t": 1782899267.439021}
+{"ev": "res", "mode": "full", "cpu": 5.9, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899269.440114}
+{"ev": "res", "mode": "full", "cpu": 5.8, "ram": 46.9, "gpu": 3, "gpu_mem_mb": 11496, "t": 1782899271.4406245}
+{"ev": "res", "mode": "full", "cpu": 5.4, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899273.4416924}
+{"ev": "res", "mode": "full", "cpu": 5.8, "ram": 47.0, "gpu": 3, "gpu_mem_mb": 11496, "t": 1782899275.4429362}
+{"ev": "res", "mode": "full", "cpu": 5.0, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899277.4442856}
+{"ev": "res", "mode": "full", "cpu": 2.9, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899279.4445522}
+{"ev": "res", "mode": "full", "cpu": 3.3, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899281.4451177}
+{"ev": "res", "mode": "full", "cpu": 2.5, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899283.4461777}
+{"ev": "res", "mode": "full", "cpu": 3.2, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899285.4470592}
+{"ev": "res", "mode": "full", "cpu": 2.7, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899287.448286}
+{"ev": "res", "mode": "full", "cpu": 3.9, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899289.4490104}
+{"ev": "res", "mode": "full", "cpu": 5.5, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899291.4499936}
+{"ev": "res", "mode": "full", "cpu": 3.5, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899293.451279}
+{"ev": "res", "mode": "full", "cpu": 3.3, "ram": 47.0, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899295.4523835}
+{"ev": "res", "mode": "full", "cpu": 2.9, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899297.4530134}
+{"ev": "res", "mode": "full", "cpu": 2.8, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899299.453388}
+{"ev": "res", "mode": "full", "cpu": 2.5, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899301.4540663}
+{"ev": "res", "mode": "full", "cpu": 3.8, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899303.4551013}
+{"ev": "res", "mode": "full", "cpu": 4.3, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899305.456032}
+{"ev": "res", "mode": "full", "cpu": 2.9, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899307.4565115}
+{"ev": "res", "mode": "full", "cpu": 2.5, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899309.4573433}
+{"ev": "res", "mode": "full", "cpu": 3.7, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899311.457955}
+{"ev": "res", "mode": "full", "cpu": 2.3, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899313.4587512}
+{"ev": "res", "mode": "full", "cpu": 4.8, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899315.4599535}
+{"ev": "res", "mode": "full", "cpu": 2.9, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899317.4612591}
+{"ev": "res", "mode": "full", "cpu": 2.5, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899319.4622178}
+{"ev": "res", "mode": "full", "cpu": 2.6, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899321.4635508}
+{"ev": "res", "mode": "full", "cpu": 2.5, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899323.4640799}
+{"ev": "res", "mode": "full", "cpu": 3.0, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899325.465362}
+{"ev": "res", "mode": "full", "cpu": 3.4, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899327.4665568}
+{"ev": "res", "mode": "full", "cpu": 2.4, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899329.4677947}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782899330.570896}
+{"ev": "res", "mode": "full", "cpu": 3.0, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899331.4689205}
+{"ev": "vad", "id": 2, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 26.6, "stt_ms": 20.3, "text_len": 5, "t": 1782899331.8821504}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782899332.766784}
+{"ev": "res", "mode": "full", "cpu": 3.9, "ram": 46.9, "gpu": 1, "gpu_mem_mb": 11496, "t": 1782899333.4700658}
+{"ev": "res", "mode": "full", "cpu": 2.8, "ram": 46.9, "gpu": 1, "gpu_mem_mb": 11496, "t": 1782899335.4708376}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782899336.1660993}
+{"ev": "res", "mode": "full", "cpu": 4.0, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899337.4712894}
+{"ev": "res", "mode": "full", "cpu": 4.2, "ram": 46.9, "gpu": 2, "gpu_mem_mb": 11496, "t": 1782899339.4730144}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782899339.9710531}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782899341.0391948}
+{"ev": "res", "mode": "full", "cpu": 10.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899341.4740098}
+{"ev": "res", "mode": "full", "cpu": 12.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899343.4752457}
+{"ev": "res", "mode": "full", "cpu": 13.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11560, "t": 1782899345.4767368}
+{"ev": "res", "mode": "full", "cpu": 15.7, "ram": 47.0, "gpu": 98, "gpu_mem_mb": 11560, "t": 1782899347.4778605}
+{"ev": "res", "mode": "full", "cpu": 15.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11784, "t": 1782899349.4789298}
+{"ev": "res", "mode": "full", "cpu": 15.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11784, "t": 1782899351.4802246}
+{"ev": "res", "mode": "full", "cpu": 14.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11592, "t": 1782899353.4812129}
+{"ev": "res", "mode": "full", "cpu": 15.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11784, "t": 1782899355.4822903}
+{"ev": "res", "mode": "full", "cpu": 15.6, "ram": 47.0, "gpu": 98, "gpu_mem_mb": 11656, "t": 1782899357.483298}
+{"ev": "res", "mode": "full", "cpu": 14.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11784, "t": 1782899359.4844065}
+{"ev": "res", "mode": "full", "cpu": 15.7, "ram": 47.0, "gpu": 98, "gpu_mem_mb": 11624, "t": 1782899361.4853783}
+{"ev": "res", "mode": "full", "cpu": 15.5, "ram": 47.0, "gpu": 98, "gpu_mem_mb": 11560, "t": 1782899363.485979}
+{"ev": "res", "mode": "full", "cpu": 14.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11784, "t": 1782899365.4866834}
+{"ev": "res", "mode": "full", "cpu": 16.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11624, "t": 1782899367.487728}
+{"ev": "vad", "id": 3, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 22.2, "stt_ms": 19.9, "text_len": 4, "t": 1782899367.988694}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782899368.0477834}
+{"ev": "res", "mode": "full", "cpu": 13.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899369.4890919}
+{"ev": "res", "mode": "full", "cpu": 10.6, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899371.490133}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11495, "t": 1782899373.4913516}
+{"ev": "resp", "id": 3, "server_ms": 4841.5, "tts_ms": 1395.8, "osc_ms": 0.2, "total_s": 30.136, "play_len": 18.89, "chars": 217, "words": 42, "block": 1, "selfloop": 0, "ans": "My dear subject, I am King Sejong, the fourth king of the Joseon Dynasty, and I am pleased to serve my kingdom with wisdom and justice. May the blessings of Heaven be upon our great nation. How may I assist you today?", "t": 1782899374.2283325}
+{"ev": "res", "mode": "full", "cpu": 16.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11495, "t": 1782899375.4923635}
+{"ev": "res", "mode": "full", "cpu": 23.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899377.4937625}
+{"ev": "res", "mode": "full", "cpu": 23.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899379.4942002}
+{"ev": "res", "mode": "full", "cpu": 23.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899381.4953175}
+{"ev": "res", "mode": "full", "cpu": 24.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899383.4958634}
+{"ev": "res", "mode": "full", "cpu": 24.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899385.4969604}
+{"ev": "res", "mode": "full", "cpu": 23.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899387.4973166}
+{"ev": "res", "mode": "full", "cpu": 23.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899389.4978921}
+{"ev": "res", "mode": "full", "cpu": 25.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899391.4990249}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782899393.2637732}
+{"ev": "res", "mode": "full", "cpu": 25.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899393.500063}
+{"ev": "res", "mode": "full", "cpu": 11.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899395.501077}
+{"ev": "res", "mode": "full", "cpu": 15.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11560, "t": 1782899397.5017838}
+{"ev": "res", "mode": "full", "cpu": 16.4, "ram": 47.0, "gpu": 98, "gpu_mem_mb": 11560, "t": 1782899399.5029974}
+{"ev": "vad", "id": 4, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 20.8, "stt_ms": 19.8, "text_len": 12, "t": 1782899401.0060663}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782899401.070077}
+{"ev": "res", "mode": "full", "cpu": 13.9, "ram": 47.0, "gpu": 98, "gpu_mem_mb": 11496, "t": 1782899401.5041065}
+{"ev": "res", "mode": "full", "cpu": 10.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899403.5054257}
+{"ev": "res", "mode": "full", "cpu": 10.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899405.5065315}
+{"ev": "res", "mode": "full", "cpu": 11.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899407.5079958}
+{"ev": "res", "mode": "full", "cpu": 10.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11495, "t": 1782899409.5087452}
+{"ev": "resp", "id": 4, "server_ms": 7433.9, "tts_ms": 1789.8, "osc_ms": 0.1, "total_s": 13.92, "play_len": 27.62, "chars": 368, "words": 66, "block": 1, "selfloop": 0, "ans": "The Korean language, our national treasure, has long been a source of pride and joy for our people. As the founder of the Korean alphabet, Hangul, I am humbled to have played a role in making it accessible to all Koreans, regardless of social class or education. May Hangul continue to be a symbol of our nation's cultural heritage and a unifying force for our people.", "t": 1782899410.2303421}
+{"ev": "res", "mode": "full", "cpu": 17.1, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11495, "t": 1782899411.5092907}
+{"ev": "res", "mode": "full", "cpu": 24.5, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899413.51015}
+{"ev": "res", "mode": "full", "cpu": 22.8, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899415.5116434}
+{"ev": "res", "mode": "full", "cpu": 23.4, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899417.5122676}
+{"ev": "res", "mode": "full", "cpu": 23.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899419.512764}
+{"ev": "res", "mode": "full", "cpu": 24.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899421.5135393}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899423.514648}
+{"ev": "res", "mode": "full", "cpu": 23.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899425.5149784}
+{"ev": "res", "mode": "full", "cpu": 23.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899427.5154505}
+{"ev": "res", "mode": "full", "cpu": 23.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899429.5164077}
+{"ev": "res", "mode": "full", "cpu": 25.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899431.5175848}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899433.5190501}
+{"ev": "res", "mode": "full", "cpu": 24.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899435.5204365}
+{"ev": "res", "mode": "full", "cpu": 24.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899437.5216668}
+{"ev": "res", "mode": "full", "cpu": 15.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899439.5224621}
+{"ev": "res", "mode": "full", "cpu": 11.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899441.5229104}
+{"ev": "res", "mode": "full", "cpu": 11.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899443.523634}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899445.5246768}
+{"ev": "res", "mode": "full", "cpu": 11.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899447.5250328}
+{"ev": "res", "mode": "full", "cpu": 11.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899449.5259235}
+{"ev": "res", "mode": "full", "cpu": 11.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899451.526692}
+{"ev": "res", "mode": "full", "cpu": 11.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899453.5274975}
+{"ev": "res", "mode": "full", "cpu": 13.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899455.5289562}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899457.5294063}
+{"ev": "res", "mode": "full", "cpu": 11.4, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899459.5302324}
+{"ev": "res", "mode": "full", "cpu": 12.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899461.5311081}
+{"ev": "res", "mode": "full", "cpu": 10.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899463.5319574}
+{"ev": "res", "mode": "full", "cpu": 11.1, "ram": 47.2, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899465.532266}
+{"ev": "res", "mode": "full", "cpu": 12.8, "ram": 47.5, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899467.5336187}
+{"ev": "res", "mode": "full", "cpu": 11.9, "ram": 47.3, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899469.5340476}
+{"ev": "res", "mode": "full", "cpu": 11.6, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899471.535487}
+{"ev": "res", "mode": "full", "cpu": 11.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899473.5361145}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899475.5370803}
+{"ev": "res", "mode": "full", "cpu": 12.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899477.537513}
+{"ev": "res", "mode": "full", "cpu": 11.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899479.5379007}
+{"ev": "res", "mode": "full", "cpu": 10.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899481.5389268}
+{"ev": "res", "mode": "full", "cpu": 11.4, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899483.5392416}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899485.540485}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899487.5412169}
+{"ev": "res", "mode": "full", "cpu": 12.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899489.5421906}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899491.5430484}
+{"ev": "res", "mode": "full", "cpu": 11.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899493.5442667}
+{"ev": "res", "mode": "full", "cpu": 10.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899495.5453703}
+{"ev": "res", "mode": "full", "cpu": 11.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899497.5463827}
+{"ev": "res", "mode": "full", "cpu": 11.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899499.5474823}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899501.5482621}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899503.5493748}
+{"ev": "res", "mode": "full", "cpu": 10.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899505.550139}
+{"ev": "res", "mode": "full", "cpu": 12.4, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899507.5513332}
+{"ev": "res", "mode": "full", "cpu": 10.4, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899509.5517504}
+{"ev": "res", "mode": "full", "cpu": 12.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899511.5529428}
+{"ev": "res", "mode": "full", "cpu": 12.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899513.5532606}
+{"ev": "res", "mode": "full", "cpu": 12.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899515.5536253}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899517.554998}
+{"ev": "res", "mode": "full", "cpu": 12.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899519.556231}
+{"ev": "res", "mode": "full", "cpu": 12.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899521.5569196}
+{"ev": "res", "mode": "full", "cpu": 9.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899523.5579274}
+{"ev": "res", "mode": "full", "cpu": 12.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899525.5582793}
+{"ev": "res", "mode": "full", "cpu": 11.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899527.559103}
+{"ev": "res", "mode": "full", "cpu": 13.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899529.5602026}
+{"ev": "res", "mode": "full", "cpu": 11.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899531.5616543}
+{"ev": "res", "mode": "full", "cpu": 9.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899533.562477}
+{"ev": "res", "mode": "full", "cpu": 10.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899535.5633442}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899537.5645733}
+{"ev": "res", "mode": "full", "cpu": 10.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899539.5648592}
+{"ev": "res", "mode": "full", "cpu": 10.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899541.5662494}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782899542.857448}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782899543.3859632}
+{"ev": "res", "mode": "full", "cpu": 11.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899543.5667999}
+{"ev": "res", "mode": "full", "cpu": 11.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899545.5673735}
+{"ev": "res", "mode": "full", "cpu": 12.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11496, "t": 1782899547.5684974}
+{"ev": "summary", "n_vad": 4, "n_stt": 4, "n_llm": 3, "t": 1782899549.2109294}

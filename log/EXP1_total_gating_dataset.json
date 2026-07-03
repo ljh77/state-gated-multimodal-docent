@@ -1,0 +1,1832 @@
+{
+  "dataset_name": "State-Gated Multimodal Interaction — Gating Evaluation Logs",
+  "description": "Per-event sensor-state logs (person detection P, frontal-face F, voice-activity V) collected from a real-time digital-human docent system. Each record is a Voice-Activity-Detection event with its objectively logged P/F/V state, enabling offline recomputation of four gating policies. Ground-truth labels are derived solely from the logged sensor states, not from transcribed text.",
+  "manuscript": "A State-Gated Multimodal Interaction Framework for Real-World Digital Human Systems (IEEE Access, #Access-2026-23083)",
+  "collection_note": "Single-participant internal evaluation in an indoor office. Self-loop (system-playback) events excluded via the during_playback flag. Background-audio false activations induced with radio (speech content). Sample size and single-user scope are acknowledged limitations.",
+  "gating_definitions": {
+    "voice_only": "V (equivalent to always-on baseline)",
+    "person_voice": "P AND V",
+    "face_voice": "F AND V",
+    "full": "P AND F AND V (proposed)"
+  },
+  "field_schema": {
+    "sample_id": "sequential id (1..N)",
+    "source_session": "originating log session",
+    "condition": "acoustic condition (quiet / radio_background_audio)",
+    "P_person": "1 if a person was detected (YOLOv8n), else 0",
+    "F_frontal": "1 if frontal face (keypoint-symmetry hysteresis), else 0",
+    "V_voice": "1 if voice activity (Silero VAD), else 0",
+    "ground_truth": "true_positive (frontal user speech) or false_positive (unintended)",
+    "subtype": "frontal_user_speech / non_frontal_person / no_person_background_audio",
+    "gating_activation": "activation (1/0) of each gating policy for this event",
+    "stt_ms": "faster-whisper STT time (ms)",
+    "vad_ms": "VAD processing time (ms)"
+  },
+  "summary": {
+    "total_samples": 97,
+    "true_positive_count": 28,
+    "false_positive_count": 69,
+    "false_positive_breakdown": {
+      "non_frontal_person": 42,
+      "no_person_background_audio": 27
+    },
+    "ablation_results": {
+      "voice_only": {
+        "true_positive_recall": {
+          "passed": 28,
+          "total": 28,
+          "rate_percent": 100.0
+        },
+        "false_activation_rate": {
+          "passed": 69,
+          "total": 69,
+          "rate_percent": 100.0
+        }
+      },
+      "person_voice": {
+        "true_positive_recall": {
+          "passed": 28,
+          "total": 28,
+          "rate_percent": 100.0
+        },
+        "false_activation_rate": {
+          "passed": 42,
+          "total": 69,
+          "rate_percent": 60.9
+        }
+      },
+      "face_voice": {
+        "true_positive_recall": {
+          "passed": 28,
+          "total": 28,
+          "rate_percent": 100.0
+        },
+        "false_activation_rate": {
+          "passed": 0,
+          "total": 69,
+          "rate_percent": 0.0
+        }
+      },
+      "full": {
+        "true_positive_recall": {
+          "passed": 28,
+          "total": 28,
+          "rate_percent": 100.0
+        },
+        "false_activation_rate": {
+          "passed": 0,
+          "total": 69,
+          "rate_percent": 0.0
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "sample_id": 1,
+      "source_session": "full",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.1,
+      "vad_ms": 83.5
+    },
+    {
+      "sample_id": 2,
+      "source_session": "full",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.7,
+      "vad_ms": 24.4
+    },
+    {
+      "sample_id": 3,
+      "source_session": "full",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.7,
+      "vad_ms": 20.6
+    },
+    {
+      "sample_id": 4,
+      "source_session": "full",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.8,
+      "vad_ms": 23.7
+    },
+    {
+      "sample_id": 5,
+      "source_session": "full",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.4,
+      "vad_ms": 21.4
+    },
+    {
+      "sample_id": 6,
+      "source_session": "full2",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 27.3,
+      "vad_ms": 28.4
+    },
+    {
+      "sample_id": 7,
+      "source_session": "full2",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 21.1,
+      "vad_ms": 21.8
+    },
+    {
+      "sample_id": 8,
+      "source_session": "full2",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.7,
+      "vad_ms": 22.3
+    },
+    {
+      "sample_id": 9,
+      "source_session": "full2",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.8,
+      "vad_ms": 22.6
+    },
+    {
+      "sample_id": 10,
+      "source_session": "cli",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.6,
+      "vad_ms": 21.1
+    },
+    {
+      "sample_id": 11,
+      "source_session": "cli",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.3,
+      "vad_ms": 26.6
+    },
+    {
+      "sample_id": 12,
+      "source_session": "cli",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.9,
+      "vad_ms": 22.2
+    },
+    {
+      "sample_id": 13,
+      "source_session": "cli",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.8,
+      "vad_ms": 20.8
+    },
+    {
+      "sample_id": 14,
+      "source_session": "a",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.1,
+      "vad_ms": 22.7
+    },
+    {
+      "sample_id": 15,
+      "source_session": "a",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.1,
+      "vad_ms": 21.7
+    },
+    {
+      "sample_id": 16,
+      "source_session": "a",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.8,
+      "vad_ms": 21.8
+    },
+    {
+      "sample_id": 17,
+      "source_session": "a",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.6,
+      "vad_ms": 20.9
+    },
+    {
+      "sample_id": 18,
+      "source_session": "a",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.4,
+      "vad_ms": 21.1
+    },
+    {
+      "sample_id": 19,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 21.2,
+      "vad_ms": 81.1
+    },
+    {
+      "sample_id": 20,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 21.0,
+      "vad_ms": 23.0
+    },
+    {
+      "sample_id": 21,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.9,
+      "vad_ms": 21.4
+    },
+    {
+      "sample_id": 22,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.9,
+      "vad_ms": 22.2
+    },
+    {
+      "sample_id": 23,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.4,
+      "vad_ms": 22.3
+    },
+    {
+      "sample_id": 24,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 24.5,
+      "vad_ms": 21.7
+    },
+    {
+      "sample_id": 25,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 22.0,
+      "vad_ms": 23.2
+    },
+    {
+      "sample_id": 26,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 24.9,
+      "vad_ms": 24.3
+    },
+    {
+      "sample_id": 27,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.2,
+      "vad_ms": 22.2
+    },
+    {
+      "sample_id": 28,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 24.2,
+      "vad_ms": 24.3
+    },
+    {
+      "sample_id": 29,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 22.1,
+      "vad_ms": 22.7
+    },
+    {
+      "sample_id": 30,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.7,
+      "vad_ms": 20.9
+    },
+    {
+      "sample_id": 31,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.2,
+      "vad_ms": 22.8
+    },
+    {
+      "sample_id": 32,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.1,
+      "vad_ms": 22.3
+    },
+    {
+      "sample_id": 33,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 21.1,
+      "vad_ms": 22.7
+    },
+    {
+      "sample_id": 34,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 23.6,
+      "vad_ms": 21.5
+    },
+    {
+      "sample_id": 35,
+      "source_session": "cli_ao",
+      "condition": "quiet",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.1,
+      "vad_ms": 21.1
+    },
+    {
+      "sample_id": 36,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.2,
+      "vad_ms": 23.1
+    },
+    {
+      "sample_id": 37,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.9,
+      "vad_ms": 26.7
+    },
+    {
+      "sample_id": 38,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.6,
+      "vad_ms": 18.1
+    },
+    {
+      "sample_id": 39,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.4,
+      "vad_ms": 23.0
+    },
+    {
+      "sample_id": 40,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 27.8
+    },
+    {
+      "sample_id": 41,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 15.1
+    },
+    {
+      "sample_id": 42,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 22.5,
+      "vad_ms": 18.8
+    },
+    {
+      "sample_id": 43,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.0,
+      "vad_ms": 15.3
+    },
+    {
+      "sample_id": 44,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.8,
+      "vad_ms": 17.2
+    },
+    {
+      "sample_id": 45,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.4,
+      "vad_ms": 20.9
+    },
+    {
+      "sample_id": 46,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 20.3
+    },
+    {
+      "sample_id": 47,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.8,
+      "vad_ms": 18.6
+    },
+    {
+      "sample_id": 48,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.0,
+      "vad_ms": 19.5
+    },
+    {
+      "sample_id": 49,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.8,
+      "vad_ms": 16.7
+    },
+    {
+      "sample_id": 50,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 21.3
+    },
+    {
+      "sample_id": 51,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 18.0
+    },
+    {
+      "sample_id": 52,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 18.7
+    },
+    {
+      "sample_id": 53,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.3,
+      "vad_ms": 20.0
+    },
+    {
+      "sample_id": 54,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 19.7
+    },
+    {
+      "sample_id": 55,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.8,
+      "vad_ms": 18.0
+    },
+    {
+      "sample_id": 56,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.2,
+      "vad_ms": 18.0
+    },
+    {
+      "sample_id": 57,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 16.5
+    },
+    {
+      "sample_id": 58,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.5,
+      "vad_ms": 23.4
+    },
+    {
+      "sample_id": 59,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.6,
+      "vad_ms": 17.2
+    },
+    {
+      "sample_id": 60,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 19.8
+    },
+    {
+      "sample_id": 61,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.1,
+      "vad_ms": 19.5
+    },
+    {
+      "sample_id": 62,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.8,
+      "vad_ms": 17.8
+    },
+    {
+      "sample_id": 63,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.1,
+      "vad_ms": 18.1
+    },
+    {
+      "sample_id": 64,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.6,
+      "vad_ms": 16.5
+    },
+    {
+      "sample_id": 65,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 16.9
+    },
+    {
+      "sample_id": 66,
+      "source_session": "radio",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.9,
+      "vad_ms": 16.8
+    },
+    {
+      "sample_id": 67,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 22.3,
+      "vad_ms": 25.3
+    },
+    {
+      "sample_id": 68,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.8,
+      "vad_ms": 19.0
+    },
+    {
+      "sample_id": 69,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.8,
+      "vad_ms": 16.8
+    },
+    {
+      "sample_id": 70,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.5,
+      "vad_ms": 17.0
+    },
+    {
+      "sample_id": 71,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.1,
+      "vad_ms": 21.1
+    },
+    {
+      "sample_id": 72,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.5,
+      "vad_ms": 20.5
+    },
+    {
+      "sample_id": 73,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.0,
+      "vad_ms": 22.4
+    },
+    {
+      "sample_id": 74,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.6,
+      "vad_ms": 26.9
+    },
+    {
+      "sample_id": 75,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 0,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "no_person_background_audio",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 0,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.1,
+      "vad_ms": 20.9
+    },
+    {
+      "sample_id": 76,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.9,
+      "vad_ms": 17.4
+    },
+    {
+      "sample_id": 77,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 20.3
+    },
+    {
+      "sample_id": 78,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 20.2,
+      "vad_ms": 16.1
+    },
+    {
+      "sample_id": 79,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.6,
+      "vad_ms": 15.5
+    },
+    {
+      "sample_id": 80,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.6,
+      "vad_ms": 23.0
+    },
+    {
+      "sample_id": 81,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 19.2,
+      "vad_ms": 19.9
+    },
+    {
+      "sample_id": 82,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 18.2
+    },
+    {
+      "sample_id": 83,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.8,
+      "vad_ms": 17.9
+    },
+    {
+      "sample_id": 84,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 22.8
+    },
+    {
+      "sample_id": 85,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 18.5
+    },
+    {
+      "sample_id": 86,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 18.4
+    },
+    {
+      "sample_id": 87,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 18.4
+    },
+    {
+      "sample_id": 88,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 18.5,
+      "vad_ms": 18.4
+    },
+    {
+      "sample_id": 89,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 18.7,
+      "vad_ms": 17.3
+    },
+    {
+      "sample_id": 90,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 1,
+      "V_voice": 1,
+      "ground_truth": "true_positive",
+      "subtype": "frontal_user_speech",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 1,
+        "full": 1
+      },
+      "stt_ms": 20.0,
+      "vad_ms": 25.0
+    },
+    {
+      "sample_id": 91,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.9,
+      "vad_ms": 17.0
+    },
+    {
+      "sample_id": 92,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.3,
+      "vad_ms": 23.0
+    },
+    {
+      "sample_id": 93,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.5,
+      "vad_ms": 18.9
+    },
+    {
+      "sample_id": 94,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.0,
+      "vad_ms": 17.0
+    },
+    {
+      "sample_id": 95,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 19.8,
+      "vad_ms": 19.0
+    },
+    {
+      "sample_id": 96,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 18.9,
+      "vad_ms": 16.5
+    },
+    {
+      "sample_id": 97,
+      "source_session": "nonfrontal",
+      "condition": "radio_background_audio",
+      "P_person": 1,
+      "F_frontal": 0,
+      "V_voice": 1,
+      "ground_truth": "false_positive",
+      "subtype": "non_frontal_person",
+      "gating_activation": {
+        "voice_only": 1,
+        "person_voice": 1,
+        "face_voice": 0,
+        "full": 0
+      },
+      "stt_ms": 21.4,
+      "vad_ms": 17.8
+    }
+  ]
+}

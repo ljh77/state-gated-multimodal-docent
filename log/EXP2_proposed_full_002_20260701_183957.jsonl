@@ -1,0 +1,80 @@
+{"ev": "meta", "mode": "full", "selfloop_baseline": 0, "label": "", "sr": 16000, "buffer_sec": 1.0, "close_enter": 0.18, "face_sym_on": 0.65, "face_sym_off": 0.5, "face_smooth": 5, "hold": 1.5, "yolo_fps": 5, "yolo": "yolov8n conf0.4 imgsz320", "whisper": "small int8 ko beam1", "vad": "silero default0.5", "face": "mediapipe ms0 keypoint-sym yaw", "t": 1782898797.3429415}
+{"ev": "res", "mode": "full", "cpu": 9.1, "ram": 46.0, "gpu": 45, "gpu_mem_mb": 11492, "t": 1782898797.3915331}
+{"ev": "res", "mode": "full", "cpu": 6.0, "ram": 46.2, "gpu": 26, "gpu_mem_mb": 11496, "t": 1782898799.4057646}
+{"ev": "res", "mode": "full", "cpu": 3.9, "ram": 46.3, "gpu": 15, "gpu_mem_mb": 11479, "t": 1782898801.4074907}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898802.8174906}
+{"ev": "res", "mode": "full", "cpu": 6.4, "ram": 46.3, "gpu": 97, "gpu_mem_mb": 11480, "t": 1782898803.4085824}
+{"ev": "res", "mode": "full", "cpu": 14.2, "ram": 46.6, "gpu": 97, "gpu_mem_mb": 11526, "t": 1782898805.4097366}
+{"ev": "res", "mode": "full", "cpu": 15.4, "ram": 47.2, "gpu": 97, "gpu_mem_mb": 11573, "t": 1782898807.410895}
+{"ev": "vad", "id": 1, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 28.4, "stt_ms": 27.3, "text_len": 5, "t": 1782898809.2867901}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898809.322931}
+{"ev": "res", "mode": "full", "cpu": 14.7, "ram": 47.2, "gpu": 97, "gpu_mem_mb": 11534, "t": 1782898809.411836}
+{"ev": "res", "mode": "full", "cpu": 13.4, "ram": 47.2, "gpu": 97, "gpu_mem_mb": 11531, "t": 1782898811.412904}
+{"ev": "res", "mode": "full", "cpu": 11.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898813.414003}
+{"ev": "res", "mode": "full", "cpu": 12.9, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11524, "t": 1782898815.4149208}
+{"ev": "resp", "id": 1, "server_ms": 4781.5, "tts_ms": 1674.7, "osc_ms": 0.2, "total_s": 10.873, "play_len": 20.83, "chars": 246, "words": 43, "block": 1, "selfloop": 0, "ans": "I greet you with the utmost respect and benevolence. May the harmony and prosperity of our great Joseon Empire be reflected in our meeting. May our conversation be filled with wisdom and insight, as we strive to advance the welfare of our people.", "t": 1782898815.75107}
+{"ev": "res", "mode": "full", "cpu": 20.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11524, "t": 1782898817.4160671}
+{"ev": "res", "mode": "full", "cpu": 22.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898819.4167016}
+{"ev": "res", "mode": "full", "cpu": 25.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898821.4175372}
+{"ev": "res", "mode": "full", "cpu": 25.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898823.4186878}
+{"ev": "res", "mode": "full", "cpu": 24.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898825.4198909}
+{"ev": "res", "mode": "full", "cpu": 24.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898827.4208484}
+{"ev": "res", "mode": "full", "cpu": 23.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898829.4219494}
+{"ev": "res", "mode": "full", "cpu": 24.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898831.4231317}
+{"ev": "res", "mode": "full", "cpu": 23.9, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898833.424657}
+{"ev": "res", "mode": "full", "cpu": 24.0, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898835.4256556}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898836.7972438}
+{"ev": "res", "mode": "full", "cpu": 20.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898837.426805}
+{"ev": "res", "mode": "full", "cpu": 12.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898839.4274578}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898841.4284403}
+{"ev": "res", "mode": "full", "cpu": 14.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11557, "t": 1782898843.4295082}
+{"ev": "vad", "id": 2, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 21.8, "stt_ms": 21.1, "text_len": 2, "t": 1782898843.6699576}
+{"ev": "res", "mode": "full", "cpu": 13.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898845.4298775}
+{"ev": "res", "mode": "full", "cpu": 12.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898847.430964}
+{"ev": "res", "mode": "full", "cpu": 11.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11557, "t": 1782898849.431855}
+{"ev": "res", "mode": "full", "cpu": 15.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11557, "t": 1782898851.4329722}
+{"ev": "vad", "id": 3, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 22.3, "stt_ms": 20.7, "text_len": 6, "t": 1782898851.515463}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898851.6532133}
+{"ev": "res", "mode": "full", "cpu": 12.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898853.4338946}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898855.4349067}
+{"ev": "res", "mode": "full", "cpu": 11.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11524, "t": 1782898857.4355946}
+{"ev": "resp", "id": 3, "server_ms": 4240.0, "tts_ms": 1814.0, "osc_ms": 0.1, "total_s": 8.727, "play_len": 17.59, "chars": 217, "words": 40, "block": 1, "selfloop": 0, "ans": "My loyal subject, your words are music to my ears. I am pleased to hear that you are pleased with the advancements made during my reign. May the blessings of the heavens continue to guide and prosper our great nation.", "t": 1782898857.5698144}
+{"ev": "res", "mode": "full", "cpu": 21.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11524, "t": 1782898859.4361947}
+{"ev": "res", "mode": "full", "cpu": 23.9, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898861.4369702}
+{"ev": "res", "mode": "full", "cpu": 24.6, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898863.4377604}
+{"ev": "res", "mode": "full", "cpu": 23.9, "ram": 47.1, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898865.438167}
+{"ev": "res", "mode": "full", "cpu": 23.0, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898867.4400048}
+{"ev": "res", "mode": "full", "cpu": 24.0, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898869.4407804}
+{"ev": "res", "mode": "full", "cpu": 24.0, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898871.4418724}
+{"ev": "res", "mode": "full", "cpu": 25.0, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898873.443218}
+{"ev": "res", "mode": "full", "cpu": 25.5, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898875.44396}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898876.301038}
+{"ev": "res", "mode": "full", "cpu": 12.3, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898877.44459}
+{"ev": "res", "mode": "full", "cpu": 11.4, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11653, "t": 1782898879.4450004}
+{"ev": "res", "mode": "full", "cpu": 16.5, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11557, "t": 1782898881.4458048}
+{"ev": "vad", "id": 4, "mode": "full", "P": 1, "F": 1, "V": 1, "gate": 1, "label": "", "during_playback": 0, "vad_ms": 22.6, "stt_ms": 19.8, "text_len": 7, "t": 1782898882.1636524}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898882.2172778}
+{"ev": "res", "mode": "full", "cpu": 13.7, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898883.447077}
+{"ev": "res", "mode": "full", "cpu": 11.3, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898885.4480157}
+{"ev": "res", "mode": "full", "cpu": 13.3, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898887.448839}
+{"ev": "res", "mode": "full", "cpu": 11.0, "ram": 46.9, "gpu": 97, "gpu_mem_mb": 11524, "t": 1782898889.4496973}
+{"ev": "resp", "id": 4, "server_ms": 5771.7, "tts_ms": 2097.0, "osc_ms": 0.1, "total_s": 10.689, "play_len": 24.05, "chars": 293, "words": 51, "block": 1, "selfloop": 0, "ans": "The Korean language, Hangul, is a creation of the heavens, designed to unite the people and promote literacy. As its creator, I am proud to have developed a script that is simple, efficient, and accessible to all. May Hangul forever serve as a bridge connecting the minds of the Korean people.", "t": 1782898890.033927}
+{"ev": "res", "mode": "full", "cpu": 18.5, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11524, "t": 1782898891.4507987}
+{"ev": "res", "mode": "full", "cpu": 23.6, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898893.4522617}
+{"ev": "res", "mode": "full", "cpu": 24.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898895.4528737}
+{"ev": "res", "mode": "full", "cpu": 22.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898897.4536283}
+{"ev": "res", "mode": "full", "cpu": 24.3, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898899.454703}
+{"ev": "res", "mode": "full", "cpu": 23.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898901.4552493}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898903.455915}
+{"ev": "res", "mode": "full", "cpu": 23.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898905.4570532}
+{"ev": "res", "mode": "full", "cpu": 24.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898907.458015}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898909.4598098}
+{"ev": "res", "mode": "full", "cpu": 25.8, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898911.4607456}
+{"ev": "res", "mode": "full", "cpu": 24.2, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898913.4612854}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898914.3962126}
+{"ev": "mic", "on": 0, "mode": "full", "t": 1782898914.8329344}
+{"ev": "res", "mode": "full", "cpu": 16.7, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898915.4620454}
+{"ev": "mic", "on": 1, "mode": "full", "t": 1782898915.6929693}
+{"ev": "res", "mode": "full", "cpu": 11.1, "ram": 47.0, "gpu": 97, "gpu_mem_mb": 11525, "t": 1782898917.4630456}
+{"ev": "res", "mode": "full", "cpu": 10.6, "ram": 47.1, "gpu": 5, "gpu_mem_mb": 11525, "t": 1782898919.4639292}
+{"ev": "summary", "n_vad": 4, "n_stt": 4, "n_llm": 3, "t": 1782898920.5700672}
