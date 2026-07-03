@@ -15,20 +15,39 @@ State-gating mechanism for context-aware multimodal processing in digital human 
 
 ```
 state-gated-multimodal-docent/
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── paper/
-│   ├── manuscript.md              Resubmission manuscript
-│   ├── figures.pdf                All figures and diagrams
-│   ├── tables.csv                 Experiment results
-│   ├── supplementary.pdf          Supplementary materials
-│   └── reviewer_responses.md       Response to reviewer comments
-│
-└── data/
-    └── deployment_logs.csv        King Sejong Museum deployment logs
+├── README.md                 This file
+├── data/
+│   ├── README.md            Detailed data documentation
+│   ├── EXP1_total_gating_dataset.json               (Section VI.A)
+│   ├── EXP3_vlmm_batch_log_260702.txt              (Section VI.C, VI.E)
+│   └── deployment_logs/
+│       ├── EXP2_proposed_full_001_20260701_182400.jsonl
+│       ├── EXP2_proposed_full_002_20260701_183957.jsonl
+│       ├── EXP2_proposed_full_003_20260701_184725.jsonl
+│       ├── EXP2_baseline_alwayson_001_backradio_user_20260701_190728.jsonl
+│       ├── EXP2_baseline_alwayson_002_backmusic_user_20260701_185942.jsonl
+│       ├── EXP2_baseline_alwayson_003_radionly_nonuser_20260701_192534.jsonl
+│       └── EXP2_baseline_alwayson_004_radiosideface_nonuser_20260702_134838.jsonl
+└── log/
 ```
+
+## Experimental Data
+
+All experimental data for reproducing the paper's results is available in the `data/` folder:
+
+- **EXP1**: Gating Policy Ablation Study (Section VI.A)
+  - 97 voice-activity detection events with sensor states (P, F, V)
+  - 4 gating policy definitions and ablation results
+
+- **EXP2**: Resource Profiling & Latency Analysis (Section VI.B, VI.D)
+  - 3 proposed state-gating session logs (full mode, P AND F AND V)
+  - 4 always-on baseline session logs for comparison
+
+- **EXP3**: Hallucination Evaluation & Batch Analysis (Section VI.C, VI.E)
+  - 200 LLM responses (40 questions × 5 repetitions)
+  - vLLM llama-3-8b-instruct-awq model
+
+See `data/README.md` for detailed file descriptions and field schemas.
 
 ## Paper Details
 
@@ -38,12 +57,16 @@ state-gated-multimodal-docent/
 - **Deployment Site**: King Sejong Museum (Gwangju, Korea)
 - **Deployment Period**: 2024-2026
 
-## License
+## Data Availability
 
-MIT License - See LICENSE file
+All experimental data required to reproduce the results in Section VI of the paper are provided in the `data/` folder:
+
+- Gating policy evaluation on 97 logged voice-activity events
+- Pipeline latency measurement on live full-mode sessions (proposed + baseline)
+- Large-scale batch analysis of 200 LLM responses
+- Complete resource profiling metrics (CPU, RAM, GPU utilization)
 
 ## Author
 
-Jun Lee (이준형 / Junhyeong Lee)  
+Jun Lee (이준형 / Junhyeong Lee)
 Culture Technology Research Institute, GIST
-
