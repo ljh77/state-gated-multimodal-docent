@@ -1,7 +1,5 @@
 # State-Gated Multimodal Digital Human Docent System
 
-**IEEE Access** #Access-2026-23083 (Resubmission)
-
 State-gating mechanism for context-aware multimodal processing in digital human docent systems.
 
 ## Core Contributions
