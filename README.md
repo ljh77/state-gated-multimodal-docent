@@ -17,7 +17,7 @@ State-gating mechanism for context-aware multimodal processing in digital human 
 state-gated-multimodal-docent/
 ├── README.md                 This file
 ├── data/
-│   ├── README.md            Detailed data documentation
+│   ├── README.md           
 │   ├── EXP1_total_gating_dataset.json         
 │   ├── EXP3_vlmm_batch_log_260702.txt
 │   ├── EXP2_proposed_full_001_20260701_182400.jsonl
